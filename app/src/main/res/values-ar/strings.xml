@@ -20,7 +20,7 @@
     <string name="system_updates">تحديثات النظام</string>
     <string name="up_to_date">محدث</string>
     <string name="update_available">التحديث المتاح</string>
-    <string name="official_specifier">Official</string>
+    <string name="official_specifier">رسمي</string>
     <string name="build_specifier">بناء رسمي من قبل</string>
     <string name="updates_title">التحديثات</string>
     <string name="changelog_guide">انقلب لترى ما الجديد</string>
@@ -58,7 +58,7 @@
     <string name="preparing_ota_first_boot">التحضير للتمهيد الأول</string>
     <string name="dialog_prepare_zip_message">إعداد التحديث الأولي</string>
     <string name="dialog_battery_low_title">بطارية منخفضة</string>
-    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
+    <string name="dialog_battery_low_message_pct">مستوى البطارية منخفض جدا ، أنت بحاجة إلى <xliff:g id="percent_discharging">%1$d</xliff:g>%% من البطارية على الأقل للمتابعة ، <xliff:g id="percent_charging">%2$d</xliff:g>%% في حالة الشحن.</string>
     <string name="dialog_scratch_mounted_message"><![CDATA[يرجى تشغيل الأوامر التالية وإعادة محاولة التحديث: \ n
         • جذر ADB \ n
         • ADB Enable-Verity \ n
@@ -88,12 +88,12 @@
     <string name="snack_download_verified">تنزيل مكتمل.</string>
     <string name="snack_update_not_installable">لا يمكن تثبيت هذا التحديث فوق البناء الحالي.</string>
     <string name="header_title_text">LineageOS\n%1$s</string>
-    <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="header_last_updates_check">Last checked: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <string name="header_android_version">أندرويد <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
+    <string name="header_last_updates_check">آخر فحص: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
     <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
     <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
-    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
-    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
+    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> من <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
+    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> من <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
     <string name="list_verifying_update">التحقق من التحديث</string>
     <string name="list_no_updates">لم يتم العثور على تحديثات جديدة. للتحقق يدويًا عن تحديثات جديدة ، استخدم زر التحديث.</string>
     <string name="action_download">تحميل</string>
@@ -107,8 +107,8 @@
     <string name="confirm_delete_dialog_title">حذف الملف</string>
     <string name="confirm_delete_dialog_message">حذف ملف التحديث المحدد؟</string>
     <string name="apply_update_dialog_title">تطبيق التحديث</string>
-    <string name="apply_update_dialog_message">You are about to install <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
-    <string name="apply_update_dialog_message_ab">You are about to install <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
+    <string name="apply_update_dialog_message">أنت على وشك تثبيت <xliff:g id="update_name">%1$s</xliff:g>.\n\n إذا ضغطت على <xliff:g id="ok">%2$s</xliff:g>، سيعيد الجهاز تشغيل نفسه في وضع الاسترداد لتثبيت التحديث.\n\n ملاحظة: هذه الميزة تتطلب وضع استرداد متوافق ، وإلا سيتعين عليك تثبيت التحديثات يدويا.</string>
+    <string name="apply_update_dialog_message_ab">أنت على وشك تثبيت <xliff:g id="update_name">%1$s</xliff:g>.\n\n إذا ضغطت على <xliff:g id="ok">%2$s</xliff:g>، سيبدأ الجهاز في التثبيت في الخلفية. \n\n بمجرد اكتمال التثبيت ، سيطلب منك إعادة التشغيل.</string>
     <string name="cancel_installation_dialog_message">إلغاء التثبيت؟</string>
     <string name="label_download_url">تنزيل عنوان URL</string>
     <string name="toast_download_url_copied">نسخ عنوان URL</string>
@@ -156,11 +156,11 @@
     <string name="info_dialog_ok">شكرا للمعلومات!</string>
     <string name="local_update_import">التحديث المحلي</string>
     <string name="local_update_import_progress">استيراد التحديث المحلي \ u2026</string>
-    <string name="local_update_import_success">%1$s has been imported. Do you want to install it?</string>
+    <string name="local_update_import_success">تم استيراد %1$s. هل تريد تثبيته؟</string>
     <string name="local_update_import_failure">فشل في استيراد التحديث المحلي</string>
     <string name="local_update_import_install">تثبيت</string>
     <string name="local_update_name">التحديث المحلي</string>
-    <string name="local_update_import_warning_title">Precaution!</string>
+    <string name="local_update_import_warning_title">تنبيه!</string>
     <string name="local_update_import_warning_message">    Performing a local update will overwrite existing partitions, and it cannot restore any sideloaded GApps or packages. 
     If you have sideloaded packages, it is advised to use recovery sideload instead.
     </string>
