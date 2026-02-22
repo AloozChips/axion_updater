@@ -109,4 +109,37 @@
     <string name="local_update_name">Локальное обновление</string>
     <string name="welcome_title">Добро пожаловать</string>
     <string name="welcome_message">Обратите внимание, что когда доступно несколько обновлений, нет необходимости перейти на обновления, вы всегда можете установить последний непосредственно, а затем безопасно удалять старые обновления, чтобы освободить место для хранения.</string>
+    <!-- Axion UI -->
+    <string name="screen_home">Главная</string>
+    <string name="screen_update">Обновление</string>
+    <string name="screen_import">Импорт</string>
+    <string name="content_description_back">Назад</string>
+    <string name="content_description_menu">Меню</string>
+    <string name="content_description_experimental_build">Экспериментальная сборка</string>
+    <string name="beta_label">ОТКРЫТАЯ БЕТА</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">Неизвестно</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">Неизвестное устройство</string>
+    <string name="local_update_label">Локальное обновление</string>
+    <string name="label_version">Версия:</string>
+    <string name="label_size">Размер</string>
+    <string name="label_date">Дата</string>
+    <string name="label_type">Тип</string>
+    <string name="label_status">Статус</string>
+    <string name="label_eta">Осталось времени</string>
+    <string name="label_speed">Скорость</string>
+    <string name="unit_kilobytes_per_second">КБ/с</string>
+    <string name="unit_megabytes">МБ</string>
+    <string name="unit_kilobytes">КБ</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">Нет подключения к Интернету или служба не готова.</string>
+    <string name="toast_unable_to_pause">Не удалось приостановить загрузку.</string>
+    <string name="toast_unable_to_delete">Не удалось удалить загрузку.</string>
+    <string name="changelog_loading">Загрузка журнала изменений…</string>
+    <string name="changelog_not_available">Журнал изменений недоступен.</string>
+    <string name="toast_notifications_enabled">Уведомления включены</string>
+    <string name="toast_notifications_permission_denied">Разрешение на уведомления отклонено</string>
+    <string name="separator_bullet"> • </string>
 </resources>

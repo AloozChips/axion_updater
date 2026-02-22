@@ -109,4 +109,37 @@
     <string name="local_update_name">Aggiornamento locale</string>
     <string name="info_dialog_message">Gli aggiornamenti di Lineageos sono pacchetti di installazione completi. Ciò significa che puoi sempre installare solo l\'ultimo aggiornamento, anche se ne hai saltato un po \'in mezzo!</string>
     <string name="welcome_message">Si prega di notare che quando sono disponibili più aggiornamenti, non è necessario accedere per aggiornare, è sempre possibile installare direttamente l\'ultimo direttamente e quindi eliminare in modo sicuro vecchi aggiornamenti per liberare lo spazio di archiviazione.</string>
+    <!-- Axion UI -->
+    <string name="screen_home">Home</string>
+    <string name="screen_update">Aggiorna</string>
+    <string name="screen_import">Importa</string>
+    <string name="content_description_back">Indietro</string>
+    <string name="content_description_menu">Menu</string>
+    <string name="content_description_experimental_build">Build sperimentale</string>
+    <string name="beta_label">BETA APERTA</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">Sconosciuto</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">Dispositivo sconosciuto</string>
+    <string name="local_update_label">Aggiornamento locale</string>
+    <string name="label_version">Versione:</string>
+    <string name="label_size">Dimensione</string>
+    <string name="label_date">Data</string>
+    <string name="label_type">Tipo</string>
+    <string name="label_status">Stato</string>
+    <string name="label_eta">Tempo rimanente</string>
+    <string name="label_speed">Velocità</string>
+    <string name="unit_kilobytes_per_second">KB/s</string>
+    <string name="unit_megabytes">MB</string>
+    <string name="unit_kilobytes">KB</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">Nessuna connessione Internet o servizio non pronto.</string>
+    <string name="toast_unable_to_pause">Impossibile mettere in pausa il download.</string>
+    <string name="toast_unable_to_delete">Impossibile eliminare il download.</string>
+    <string name="changelog_loading">Caricamento registro modifiche…</string>
+    <string name="changelog_not_available">Nessun registro modifiche disponibile.</string>
+    <string name="toast_notifications_enabled">Notifiche abilitate</string>
+    <string name="toast_notifications_permission_denied">Autorizzazione notifiche negata</string>
+    <string name="separator_bullet"> • </string>
 </resources>

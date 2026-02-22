@@ -109,4 +109,37 @@
     <string name="local_update_import_progress">Lokales Update \ U2026 importieren</string>
     <string name="local_update_import_failure">Das lokale Update nicht importieren</string>
     <string name="welcome_message">Bitte beachten Sie, dass Sie, wenn mehrere Updates verfügbar sind, keine Aktualisierung durch Update benötigen, die Sie immer direkt installieren und dann alte Updates sicher löschen können, um den Speicherplatz freizugeben.</string>
+    <!-- Axion UI -->
+    <string name="screen_home">Startseite</string>
+    <string name="screen_update">Aktualisieren</string>
+    <string name="screen_import">Importieren</string>
+    <string name="content_description_back">Zurück</string>
+    <string name="content_description_menu">Menü</string>
+    <string name="content_description_experimental_build">Experimentelle Version</string>
+    <string name="beta_label">OFFENE BETA</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">Unbekannt</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">Unbekanntes Gerät</string>
+    <string name="local_update_label">Lokales Update</string>
+    <string name="label_version">Version:</string>
+    <string name="label_size">Größe</string>
+    <string name="label_date">Datum</string>
+    <string name="label_type">Typ</string>
+    <string name="label_status">Status</string>
+    <string name="label_eta">Verbleibende Zeit</string>
+    <string name="label_speed">Geschwindigkeit</string>
+    <string name="unit_kilobytes_per_second">KB/s</string>
+    <string name="unit_megabytes">MB</string>
+    <string name="unit_kilobytes">KB</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">Keine Internetverbindung oder Dienst nicht bereit.</string>
+    <string name="toast_unable_to_pause">Download kann nicht pausiert werden.</string>
+    <string name="toast_unable_to_delete">Download kann nicht gelöscht werden.</string>
+    <string name="changelog_loading">Änderungsprotokoll wird geladen…</string>
+    <string name="changelog_not_available">Kein Änderungsprotokoll verfügbar.</string>
+    <string name="toast_notifications_enabled">Benachrichtigungen aktiviert</string>
+    <string name="toast_notifications_permission_denied">Benachrichtigungsberechtigung verweigert</string>
+    <string name="separator_bullet"> • </string>
 </resources>

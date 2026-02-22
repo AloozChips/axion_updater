@@ -109,4 +109,37 @@
     <string name="local_update_import_progress">导入本地更新\ U2026</string>
     <string name="local_update_name">本地更新</string>
     <string name="welcome_message">请注意，当有多个更新可用时，无需逐渐更新，您可以随时直接安装最新的更新，然后安全地删除旧更新以释放存储空间。</string>
+    <!-- Axion UI -->
+    <string name="screen_home">主页</string>
+    <string name="screen_update">更新</string>
+    <string name="screen_import">导入</string>
+    <string name="content_description_back">返回</string>
+    <string name="content_description_menu">菜单</string>
+    <string name="content_description_experimental_build">实验性版本</string>
+    <string name="beta_label">公开测试版</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">未知</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">未知设备</string>
+    <string name="local_update_label">本地更新</string>
+    <string name="label_version">版本：</string>
+    <string name="label_size">大小</string>
+    <string name="label_date">日期</string>
+    <string name="label_type">类型</string>
+    <string name="label_status">状态</string>
+    <string name="label_eta">剩余时间</string>
+    <string name="label_speed">速度</string>
+    <string name="unit_kilobytes_per_second">KB/秒</string>
+    <string name="unit_megabytes">MB</string>
+    <string name="unit_kilobytes">KB</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">无互联网连接或服务未就绪。</string>
+    <string name="toast_unable_to_pause">无法暂停下载。</string>
+    <string name="toast_unable_to_delete">无法删除下载。</string>
+    <string name="changelog_loading">正在加载更新日志…</string>
+    <string name="changelog_not_available">无更新日志可用。</string>
+    <string name="toast_notifications_enabled">已启用通知</string>
+    <string name="toast_notifications_permission_denied">通知权限被拒绝</string>
+    <string name="separator_bullet"> • </string>
 </resources>

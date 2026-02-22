@@ -109,4 +109,37 @@
     <string name="welcome_title">환영</string>
     <string name="local_update_name">로컬 업데이트</string>
     <string name="welcome_message">여러 업데이트를 사용할 수 있으면 업데이트 별 업데이트가 필요하지 않으며 항상 최신 업데이트를 직접 설치 한 다음 오래된 업데이트를 안전하게 삭제하여 저장 공간을 확정 할 수 있습니다.</string>
+    <!-- Axion UI -->
+    <string name="screen_home">홈</string>
+    <string name="screen_update">업데이트</string>
+    <string name="screen_import">가져오기</string>
+    <string name="content_description_back">뒤로</string>
+    <string name="content_description_menu">메뉴</string>
+    <string name="content_description_experimental_build">실험적 빌드</string>
+    <string name="beta_label">오픈 베타</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">알 수 없음</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">알 수 없는 기기</string>
+    <string name="local_update_label">로컬 업데이트</string>
+    <string name="label_version">버전:</string>
+    <string name="label_size">크기</string>
+    <string name="label_date">날짜</string>
+    <string name="label_type">유형</string>
+    <string name="label_status">상태</string>
+    <string name="label_eta">남은 시간</string>
+    <string name="label_speed">속도</string>
+    <string name="unit_kilobytes_per_second">KB/초</string>
+    <string name="unit_megabytes">MB</string>
+    <string name="unit_kilobytes">KB</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">인터넷 연결이 없거나 서비스가 준비되지 않았습니다.</string>
+    <string name="toast_unable_to_pause">다운로드를 일시 중지할 수 없습니다.</string>
+    <string name="toast_unable_to_delete">다운로드를 삭제할 수 없습니다.</string>
+    <string name="changelog_loading">변경 로그 로드 중…</string>
+    <string name="changelog_not_available">사용 가능한 변경 로그가 없습니다.</string>
+    <string name="toast_notifications_enabled">알림이 활성화되었습니다</string>
+    <string name="toast_notifications_permission_denied">알림 권한이 거부되었습니다</string>
+    <string name="separator_bullet"> • </string>
 </resources>

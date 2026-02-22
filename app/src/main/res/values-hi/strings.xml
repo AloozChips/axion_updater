@@ -109,4 +109,37 @@
     <string name="local_update_import_progress">स्थानीय अद्यतन आयात \ u2026</string>
     <string name="local_update_import_failure">स्थानीय अद्यतन आयात करने में विफल</string>
     <string name="welcome_message">कृपया ध्यान दें कि जब कई अपडेट उपलब्ध होते हैं, तो अपडेट-बाय-अपडेट जाने की आवश्यकता नहीं होती है, आप हमेशा नवीनतम को सीधे स्थापित कर सकते हैं, और फिर स्टोरेज स्पेस को मुक्त करने के लिए पुराने अपडेट को सुरक्षित रूप से हटा सकते हैं।</string>
+    <!-- Axion UI -->
+    <string name="screen_home">होम</string>
+    <string name="screen_update">अपडेट</string>
+    <string name="screen_import">आयात</string>
+    <string name="content_description_back">वापस</string>
+    <string name="content_description_menu">मेनू</string>
+    <string name="content_description_experimental_build">प्रयोगात्मक बिल्ड</string>
+    <string name="beta_label">ओपन बीटा</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">अज्ञात</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">अज्ञात डिवाइस</string>
+    <string name="local_update_label">स्थानीय अपडेट</string>
+    <string name="label_version">संस्करण:</string>
+    <string name="label_size">आकार</string>
+    <string name="label_date">तारीख</string>
+    <string name="label_type">प्रकार</string>
+    <string name="label_status">स्थिति</string>
+    <string name="label_eta">शेष समय</string>
+    <string name="label_speed">गति</string>
+    <string name="unit_kilobytes_per_second">KB/सेकंड</string>
+    <string name="unit_megabytes">MB</string>
+    <string name="unit_kilobytes">KB</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">कोई इंटरनेट कनेक्शन या सेवा तैयार नहीं है।</string>
+    <string name="toast_unable_to_pause">डाउनलोड को रोकने में असमर्थ।</string>
+    <string name="toast_unable_to_delete">डाउनलोड को हटाने में असमर्थ।</string>
+    <string name="changelog_loading">चेंजलॉग लोड हो रहा है…</string>
+    <string name="changelog_not_available">कोई चेंजलॉग उपलब्ध नहीं है।</string>
+    <string name="toast_notifications_enabled">सूचनाएं सक्षम</string>
+    <string name="toast_notifications_permission_denied">सूचना अनुमति अस्वीकृत</string>
+    <string name="separator_bullet"> • </string>
 </resources>

@@ -109,4 +109,37 @@
     <string name="local_update_name">Actualización local</string>
     <string name="welcome_title">Bienvenido</string>
     <string name="welcome_message">Tenga en cuenta que cuando hay varias actualizaciones disponibles, no hay necesidad de actualizar la actualización, siempre puede instalar la más reciente directamente y luego eliminar de forma segura actualizaciones antiguas para liberar espacio de almacenamiento.</string>
+    <!-- Axion UI -->
+    <string name="screen_home">Inicio</string>
+    <string name="screen_update">Actualizar</string>
+    <string name="screen_import">Importar</string>
+    <string name="content_description_back">Atrás</string>
+    <string name="content_description_menu">Menú</string>
+    <string name="content_description_experimental_build">Compilación experimental</string>
+    <string name="beta_label">BETA ABIERTO</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">Desconocido</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">Dispositivo desconocido</string>
+    <string name="local_update_label">Actualización local</string>
+    <string name="label_version">Versión:</string>
+    <string name="label_size">Tamaño</string>
+    <string name="label_date">Fecha</string>
+    <string name="label_type">Tipo</string>
+    <string name="label_status">Estado</string>
+    <string name="label_eta">Tiempo restante</string>
+    <string name="label_speed">Velocidad</string>
+    <string name="unit_kilobytes_per_second">KB/s</string>
+    <string name="unit_megabytes">MB</string>
+    <string name="unit_kilobytes">KB</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">No hay conexión a Internet o el servicio no está listo.</string>
+    <string name="toast_unable_to_pause">No se puede pausar la descarga.</string>
+    <string name="toast_unable_to_delete">No se puede eliminar la descarga.</string>
+    <string name="changelog_loading">Cargando registro de cambios…</string>
+    <string name="changelog_not_available">No hay registro de cambios disponible.</string>
+    <string name="toast_notifications_enabled">Notificaciones habilitadas</string>
+    <string name="toast_notifications_permission_denied">Permiso de notificaciones denegado</string>
+    <string name="separator_bullet"> • </string>
 </resources>

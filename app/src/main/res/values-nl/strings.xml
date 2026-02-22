@@ -127,4 +127,37 @@
     <string name="local_update_import_failure">Importeren van lokale update is mislukt</string>
     <string name="local_update_import_install">Installeer</string>
     <string name="local_update_name">Lokale update</string>
+    <!-- Axion UI -->
+    <string name="screen_home">Start</string>
+    <string name="screen_update">Bijwerken</string>
+    <string name="screen_import">Importeren</string>
+    <string name="content_description_back">Terug</string>
+    <string name="content_description_menu">Menu</string>
+    <string name="content_description_experimental_build">Experimentele build</string>
+    <string name="beta_label">OPEN BETA</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">Onbekend</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">Onbekend apparaat</string>
+    <string name="local_update_label">Lokale update</string>
+    <string name="label_version">Versie:</string>
+    <string name="label_size">Grootte</string>
+    <string name="label_date">Datum</string>
+    <string name="label_type">Type</string>
+    <string name="label_status">Status</string>
+    <string name="label_eta">Resterende tijd</string>
+    <string name="label_speed">Snelheid</string>
+    <string name="unit_kilobytes_per_second">KB/s</string>
+    <string name="unit_megabytes">MB</string>
+    <string name="unit_kilobytes">KB</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">Geen internetverbinding of service niet klaar.</string>
+    <string name="toast_unable_to_pause">Kan download niet pauzeren.</string>
+    <string name="toast_unable_to_delete">Kan download niet verwijderen.</string>
+    <string name="changelog_loading">Wijzigingslogboek laden…</string>
+    <string name="changelog_not_available">Geen wijzigingslogboek beschikbaar.</string>
+    <string name="toast_notifications_enabled">Meldingen ingeschakeld</string>
+    <string name="toast_notifications_permission_denied">Meldingstoestemming geweigerd</string>
+    <string name="separator_bullet"> • </string>
 </resources>

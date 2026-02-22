@@ -193,4 +193,38 @@
 
     <string name="welcome_title">Welcome</string>
     <string name="welcome_message">Please note that when multiple updates are available, there is no need to go update-by-update, you can always install the latest one directly, and then safely delete old updates to free up storage space.</string>
+
+    <!-- Axion UI -->
+    <string name="screen_home">Home</string>
+    <string name="screen_update">Update</string>
+    <string name="screen_import">Import</string>
+    <string name="content_description_back">Back</string>
+    <string name="content_description_menu">Menu</string>
+    <string name="content_description_experimental_build">Experimental build</string>
+    <string name="beta_label">Open BETA</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">Unknown</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">Unknown Device</string>
+    <string name="local_update_label">Local update</string>
+    <string name="label_version">Version:</string>
+    <string name="label_size">Size</string>
+    <string name="label_date">Date</string>
+    <string name="label_type">Type</string>
+    <string name="label_status">Status</string>
+    <string name="label_eta">ETA</string>
+    <string name="label_speed">Speed</string>
+    <string name="unit_kilobytes_per_second">KB/s</string>
+    <string name="unit_megabytes">MB</string>
+    <string name="unit_kilobytes">KB</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">No internet connection or service not ready.</string>
+    <string name="toast_unable_to_pause">Unable to pause download.</string>
+    <string name="toast_unable_to_delete">Unable to delete download.</string>
+    <string name="changelog_loading">Loading changelog…</string>
+    <string name="changelog_not_available">No changelog available.</string>
+    <string name="toast_notifications_enabled">Notifications enabled</string>
+    <string name="toast_notifications_permission_denied">Notifications permission denied</string>
+    <string name="separator_bullet"> • </string>
 </resources>

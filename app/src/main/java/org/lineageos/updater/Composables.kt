@@ -84,9 +84,10 @@ fun UpdaterApp(
     changelog: String
 ) {
     Box(modifier = Modifier.fillMaxSize()) {
+        val context = LocalContext.current
         when (uiState.currentScreen) {
-            "Home" -> HomeScreen(uiState, callbacks, changelog)
-            "Update" -> UpdateScreen(uiState, callbacks)
+            context.getString(R.string.screen_home) -> HomeScreen(uiState, callbacks, changelog)
+            context.getString(R.string.screen_update) -> UpdateScreen(uiState, callbacks)
         }
         PillToolbar(
             selectedScreen = uiState.currentScreen,
@@ -102,9 +103,10 @@ fun HomeScreen(
     callbacks: UpdaterCallbacks,
     changelog: String
 ) {
-    val maintainer = SystemProperties.get("persist.sys.axion_maintainer", "Unknown").replace("_", " ")
-    val version = SystemProperties.get("ro.axion.build.version", "2.0")
-    val deviceModel = SystemProperties.get("ro.product.model", "Unknown Device")
+    val context = LocalContext.current
+    val maintainer = SystemProperties.get("persist.sys.axion_maintainer", context.getString(R.string.default_maintainer)).replace("_", " ")
+    val version = SystemProperties.get("ro.axion.build.version", context.getString(R.string.default_version))
+    val deviceModel = SystemProperties.get("ro.product.model", context.getString(R.string.default_device))
     val updated = uiState.latestUpdate == null
 
     var showSheet by remember { mutableStateOf(false) }
@@ -158,12 +160,14 @@ fun UpdateScreen(
     val status = uiState.updateStatus ?: UpdateStatus.UNKNOWN
     val downloadProgress = uiState.downloadProgress
     val installProgress = uiState.installProgress ?: 0
+    val context = LocalContext.current
+    val homeScreen = context.getString(R.string.screen_home)
 
     Scaffold(
         topBar = {
             UpdaterTopBar(
                 title = stringResource(R.string.updates_title),
-                onBack = { callbacks.onScreenChange("Home") }
+                onBack = { callbacks.onScreenChange(homeScreen) }
             )
         }
     ) { padding ->
@@ -218,14 +222,14 @@ fun UpdaterTopBar(
         navigationIcon = {
             onBack?.let {
                 IconButton(onClick = it) {
-                    Icon(Icons.Default.ArrowBack, contentDescription = "Back")
+                    Icon(Icons.Default.ArrowBack, contentDescription = stringResource(R.string.content_description_back))
                 }
             }
         },
         actions = {
             if (onPreferences != null) {
                 IconButton(onClick = { menuExpanded = true }) {
-                    Icon(Icons.Default.MoreVert, contentDescription = "Menu")
+                    Icon(Icons.Default.MoreVert, contentDescription = stringResource(R.string.content_description_menu))
                 }
                 DropdownMenu(
                     expanded = menuExpanded,
@@ -330,12 +334,12 @@ fun VersionCard(
                             ) {
                                 Icon(
                                     imageVector = Icons.Filled.Science,
-                                    contentDescription = "Experimental build",
+                                    contentDescription = stringResource(R.string.content_description_experimental_build),
                                     modifier = Modifier.size(28.dp)
                                 )
                                 Spacer(modifier = Modifier.width(4.dp))
                                 Text(
-                                    text = "Open BETA",
+                                    text = stringResource(R.string.beta_label),
                                     style = MaterialTheme.typography.titleMedium.copy(
                                         fontWeight = FontWeight.Bold
                                     )
@@ -375,7 +379,7 @@ fun VersionCard(
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Text(
-                            text = "AxionOS",
+                            text = stringResource(R.string.rom_name),
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Bold,
                             color = primaryColor
@@ -412,14 +416,14 @@ fun VersionCard(
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Text(
-                            text = deviceModel + " • " + stringResource(
+                            text = deviceModel + stringResource(R.string.separator_bullet) + stringResource(
                                 if (isOfficial) R.string.official_specifier else R.string.build_specifier
                             ),
                             style = MaterialTheme.typography.bodyLarge,
                             fontWeight = FontWeight.Medium
                         )
                         Text(
-                            text = " • $maintainer",
+                            text = stringResource(R.string.separator_bullet) + maintainer,
                             style = MaterialTheme.typography.bodyLarge,
                             fontWeight = FontWeight.Medium,
                             maxLines = 1,
@@ -701,7 +705,7 @@ private fun MarkdownText(
                     bottom = 4.dp
                 )
             ) {
-                Text("• ", style = style)
+                Text(stringResource(R.string.bullet_point) + " ", style = style)
                 Text(
                     text = annotated,
                     style = style,
@@ -975,10 +979,14 @@ fun PillToolbar(
 ) {
     var showImportDialog by remember { mutableStateOf(false) }
 
+    val context = LocalContext.current
+    val homeScreen = context.getString(R.string.screen_home)
+    val updateScreen = context.getString(R.string.screen_update)
+    val importScreen = context.getString(R.string.screen_import)
     val items = listOf(
-        ToolbarItem("Home", Icons.Filled.Home) { callbacks.onScreenChange("Home") },
-        ToolbarItem("Update", Icons.Filled.Update) { callbacks.onScreenChange("Update") },
-        ToolbarItem("Import", Icons.Filled.FileUpload) {
+        ToolbarItem(homeScreen, Icons.Filled.Home) { callbacks.onScreenChange(homeScreen) },
+        ToolbarItem(updateScreen, Icons.Filled.Update) { callbacks.onScreenChange(updateScreen) },
+        ToolbarItem(importScreen, Icons.Filled.FileUpload) {
             showImportDialog = true
         }
     )
@@ -987,11 +995,11 @@ fun PillToolbar(
         ImportWarningDialog(
             onDismiss = { 
                 callbacks.onImportLocal()
-                callbacks.onScreenChange("Update")
+                callbacks.onScreenChange(updateScreen)
                 showImportDialog = false
             },
             onCancel = {
-                callbacks.onScreenChange("Home")
+                callbacks.onScreenChange(homeScreen)
                 showImportDialog = false
             }
         )
@@ -1108,7 +1116,7 @@ fun UpdateCard(
                 verticalAlignment = Alignment.Top
             ) {
                 Text(
-                    update.getName() ?: "Local update",
+                    update.getName() ?: stringResource(R.string.local_update_label),
                     fontWeight = FontWeight.Bold,
                     fontSize = 22.sp,
                     color = MaterialTheme.colorScheme.primary,
@@ -1132,29 +1140,29 @@ fun UpdateCard(
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                "Version: ${update.getVersion() ?: "—"}",
+                stringResource(R.string.label_version) + " ${update.getVersion() ?: "—"}",
                 style = MaterialTheme.typography.bodyMedium
             )
             Spacer(modifier = Modifier.height(12.dp))
 
-            InfoRow(Icons.Default.Storage, "Size", update.getFileSize()?.let { formatFileSize(it) } ?: "—")
+            InfoRow(Icons.Default.Storage, stringResource(R.string.label_size), update.getFileSize()?.let { formatFileSize(bytes = it) } ?: "—")
 
             InfoRow(
                 Icons.Default.DateRange,
-                "Date",
+                stringResource(R.string.label_date),
                 update.getTimestamp()?.let { formatTimestamp(it) }
                     ?: SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
             )
 
-            InfoRow(Icons.Default.Info, "Type", update.getType() ?: "Local update")
+            InfoRow(Icons.Default.Info, stringResource(R.string.label_type), update.getType() ?: stringResource(R.string.local_update_label))
 
-            InfoRow(Icons.Default.CloudDownload, "Status", status.toString())
+            InfoRow(Icons.Default.CloudDownload, stringResource(R.string.label_status), status.toString())
 
             if (!isLocalUpdate) {
                 Spacer(modifier = Modifier.height(12.dp))
 
-                InfoRow(Icons.Default.Timer, "ETA", update.getEta()?.takeIf { it > 0 }?.let { "${it}s" } ?: "—")
-                InfoRow(Icons.Default.Speed, "Speed", update.getSpeed()?.takeIf { it > 0 }?.let { "${it / 1024} KB/s" } ?: "—")
+                InfoRow(Icons.Default.Timer, stringResource(R.string.label_eta), update.getEta()?.takeIf { it > 0 }?.let { "${it}s" } ?: "—")
+                InfoRow(Icons.Default.Speed, stringResource(R.string.label_speed), update.getSpeed()?.takeIf { it > 0 }?.let { "${it / 1024} ${stringResource(R.string.unit_kilobytes_per_second)}" } ?: "—")
                 if (status == UpdateStatus.INSTALLING || downloadProgress > 0f) {
                     Spacer(modifier = Modifier.height(8.dp))
                     val isInstalling = status == UpdateStatus.INSTALLING
@@ -1173,7 +1181,7 @@ fun UpdateCard(
                         waveSpeed = 20.dp
                     )
                     Text(
-                        text = "${(indicatorProgress() * 100).toInt()}%",
+                        text = "${(indicatorProgress() * 100).toInt()}${stringResource(R.string.unit_percent)}",
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         modifier = Modifier.align(Alignment.CenterHorizontally)
@@ -1190,7 +1198,7 @@ fun UpdateCard(
                             stroke = stroke
                         )
                         Text(
-                            text = "${installProgress}%",
+                            text = "${installProgress}${stringResource(R.string.unit_percent)}",
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                             modifier = Modifier.align(Alignment.CenterHorizontally)
@@ -1340,10 +1348,12 @@ fun InfoRow(icon: ImageVector, label: String, value: String) {
     }
 }
 
+@Composable
 fun formatFileSize(bytes: Long): String {
     val kb = bytes / 1024
     val mb = kb / 1024
-    return if (mb > 0) "$mb MB" else "$kb KB"
+    val context = LocalContext.current
+    return if (mb > 0) "$mb ${context.getString(R.string.unit_megabytes)}" else "$kb ${context.getString(R.string.unit_kilobytes)}"
 }
 
 fun formatTimestamp(timestamp: Long): String {

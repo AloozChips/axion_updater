@@ -95,22 +95,22 @@ class UpdatesActivity : ComponentActivity(), UpdateImporter.Callbacks {
                 onStartDownload = { update ->
                     mUpdaterService?.updaterController?.takeIf { Utils.isNetworkAvailable(this@UpdatesActivity) }
                         ?.startDownload(update.downloadId)
-                        ?.also { uiState.value = uiState.value.copy(currentScreen = "Update") }
-                        ?: showToast("No internet connection or service not ready.")
+                        ?.also { uiState.value = uiState.value.copy(currentScreen = getString(R.string.screen_update)) }
+                        ?: showToast(getString(R.string.toast_no_internet_or_service))
                 },
                 onPause = { update ->
                     mUpdaterService?.updaterController?.pauseDownload(update.downloadId)
-                        ?: showToast("Unable to pause download.")
+                        ?: showToast(getString(R.string.toast_unable_to_pause))
                 },
                 onResume = { update ->
                     mUpdaterService?.updaterController?.takeIf { Utils.isNetworkAvailable(this@UpdatesActivity) }
                         ?.startDownload(update.downloadId)
-                        ?.also { uiState.value = uiState.value.copy(currentScreen = "Update") }
-                        ?: showToast("No internet connection or service not ready.")
+                        ?.also { uiState.value = uiState.value.copy(currentScreen = getString(R.string.screen_update)) }
+                        ?: showToast(getString(R.string.toast_no_internet_or_service))
                 },
                 onDelete = { update ->
                     mUpdaterService?.updaterController?.deleteUpdate(update.downloadId)
-                        ?: showToast("Unable to delete download.")
+                        ?: showToast(getString(R.string.toast_unable_to_delete))
                 },
                 onInstalled = { update ->
                     (getSystemService(Context.POWER_SERVICE) as PowerManager).reboot(null)
@@ -120,7 +120,7 @@ class UpdatesActivity : ComponentActivity(), UpdateImporter.Callbacks {
                 },
                 onFinish = {
                     uiState.value = uiState.value.copy(
-                        currentScreen = "Home",
+                        currentScreen = getString(R.string.screen_home),
                         downloadProgress = 0f,
                         downloadedMB = 0,
                         totalMB = 0
@@ -140,8 +140,8 @@ class UpdatesActivity : ComponentActivity(), UpdateImporter.Callbacks {
                     preferences = PreferencesData(),
                     callbacks = callbacks,
                     changelog = when {
-                        state.isLoadingChangelog -> "Loading changelog..."
-                        state.changelog.isEmpty() -> "No changelog available."
+                        state.isLoadingChangelog -> getString(R.string.changelog_loading)
+                        state.changelog.isEmpty() -> getString(R.string.changelog_not_available)
                         else -> state.changelog
                     }
                 )
@@ -441,9 +441,9 @@ class UpdatesActivity : ComponentActivity(), UpdateImporter.Callbacks {
     private val requestNotificationPermission =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
             if (granted) {
-                showToast("Notifications enabled")
+                showToast(getString(R.string.toast_notifications_enabled))
             } else {
-                showToast("Notifications permission denied")
+                showToast(getString(R.string.toast_notifications_permission_denied))
             }
             markNotificationPermissionRequested()
         }

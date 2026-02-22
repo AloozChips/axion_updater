@@ -109,4 +109,37 @@
     <string name="local_update_import_failure">فشل في استيراد التحديث المحلي</string>
     <string name="welcome_message">يرجى ملاحظة أنه عند توفر تحديثات متعددة ، لا توجد حاجة للذهاب إلى التحديث تلو الآخر ، يمكنك دائمًا تثبيت أحدث التحديثات مباشرة ، ثم حذف التحديثات القديمة بأمان لتحرير مساحة التخزين.</string>
     <string name="local_update_import_progress">استيراد التحديث المحلي \ u2026</string>
+    <!-- Axion UI -->
+    <string name="screen_home">الرئيسية</string>
+    <string name="screen_update">تحديث</string>
+    <string name="screen_import">استيراد</string>
+    <string name="content_description_back">رجوع</string>
+    <string name="content_description_menu">القائمة</string>
+    <string name="content_description_experimental_build">بناء تجريبي</string>
+    <string name="beta_label">بيتا مفتوح</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">غير معروف</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">جهاز غير معروف</string>
+    <string name="local_update_label">تحديث محلي</string>
+    <string name="label_version">الإصدار:</string>
+    <string name="label_size">الحجم</string>
+    <string name="label_date">التاريخ</string>
+    <string name="label_type">النوع</string>
+    <string name="label_status">الحالة</string>
+    <string name="label_eta">الوقت المتبقي</string>
+    <string name="label_speed">السرعة</string>
+    <string name="unit_kilobytes_per_second">كيلوبايت/ثانية</string>
+    <string name="unit_megabytes">ميجابايت</string>
+    <string name="unit_kilobytes">كيلوبايت</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">لا يوجد اتصال بالإنترنت أو الخدمة غير جاهزة.</string>
+    <string name="toast_unable_to_pause">تعذر إيقاف التنزيل مؤقتًا.</string>
+    <string name="toast_unable_to_delete">تعذر حذف التنزيل.</string>
+    <string name="changelog_loading">جارٍ تحميل سجل التغييرات…</string>
+    <string name="changelog_not_available">لا يوجد سجل تغييرات متاح.</string>
+    <string name="toast_notifications_enabled">تم تمكين الإشعارات</string>
+    <string name="toast_notifications_permission_denied">تم رفض إذن الإشعارات</string>
+    <string name="separator_bullet"> • </string>
 </resources>

@@ -130,4 +130,37 @@
     <string name="local_update_name">Yerel güncelleme</string>
     <string name="welcome_title">Hoş Geldiniz</string>
     <string name="welcome_message">Eğer birden fazla güncelleştirme mevcutsa bunları tek tek yüklemeniz gerekmez. Son güncelleştirmeyi uygulayıp eski güncelleştirmeleri silerek depolama alanınızdan tasarruf edebilirsiniz.</string>
+    <!-- Axion UI -->
+    <string name="screen_home">Ana Sayfa</string>
+    <string name="screen_update">Güncelle</string>
+    <string name="screen_import">İçe Aktar</string>
+    <string name="content_description_back">Geri</string>
+    <string name="content_description_menu">Menü</string>
+    <string name="content_description_experimental_build">Deneysel yapı</string>
+    <string name="beta_label">AÇIK BETA</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">Bilinmiyor</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">Bilinmeyen cihaz</string>
+    <string name="local_update_label">Yerel güncelleme</string>
+    <string name="label_version">Sürüm:</string>
+    <string name="label_size">Boyut</string>
+    <string name="label_date">Tarih</string>
+    <string name="label_type">Tür</string>
+    <string name="label_status">Durum</string>
+    <string name="label_eta">Kalan süre</string>
+    <string name="label_speed">Hız</string>
+    <string name="unit_kilobytes_per_second">KB/s</string>
+    <string name="unit_megabytes">MB</string>
+    <string name="unit_kilobytes">KB</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">İnternet bağlantısı yok veya hizmet hazır değil.</string>
+    <string name="toast_unable_to_pause">İndirme duraklatılamıyor.</string>
+    <string name="toast_unable_to_delete">İndirme silinemiyor.</string>
+    <string name="changelog_loading">Değişiklik günlüğü yükleniyor…</string>
+    <string name="changelog_not_available">Değişiklik günlüğü mevcut değil.</string>
+    <string name="toast_notifications_enabled">Bildirimler etkinleştirildi</string>
+    <string name="toast_notifications_permission_denied">Bildirim izni reddedildi</string>
+    <string name="separator_bullet"> • </string>
 </resources>

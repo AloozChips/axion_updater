@@ -109,4 +109,37 @@
     <string name="local_update_import_install">インストール</string>
     <string name="local_update_name">ローカルアップデート</string>
     <string name="welcome_message">複数の更新が利用可能な場合は、アップデートごとに更新する必要はありません。最新の更新を常に直接インストールしてから、古い更新を安全に削除してストレージスペースを無料で削除できます。</string>
+    <!-- Axion UI -->
+    <string name="screen_home">ホーム</string>
+    <string name="screen_update">更新</string>
+    <string name="screen_import">インポート</string>
+    <string name="content_description_back">戻る</string>
+    <string name="content_description_menu">メニュー</string>
+    <string name="content_description_experimental_build">実験的ビルド</string>
+    <string name="beta_label">オープンベータ</string>
+    <string name="rom_name">AxionOS</string>
+    <string name="default_maintainer">不明</string>
+    <string name="default_version">2.0</string>
+    <string name="default_device">不明なデバイス</string>
+    <string name="local_update_label">ローカル更新</string>
+    <string name="label_version">バージョン：</string>
+    <string name="label_size">サイズ</string>
+    <string name="label_date">日付</string>
+    <string name="label_type">タイプ</string>
+    <string name="label_status">ステータス</string>
+    <string name="label_eta">残り時間</string>
+    <string name="label_speed">速度</string>
+    <string name="unit_kilobytes_per_second">KB/秒</string>
+    <string name="unit_megabytes">MB</string>
+    <string name="unit_kilobytes">KB</string>
+    <string name="unit_percent">%</string>
+    <string name="bullet_point">•</string>
+    <string name="toast_no_internet_or_service">インターネット接続がないか、サービスが準備できていません。</string>
+    <string name="toast_unable_to_pause">ダウンロードを一時停止できません。</string>
+    <string name="toast_unable_to_delete">ダウンロードを削除できません。</string>
+    <string name="changelog_loading">変更ログを読み込み中…</string>
+    <string name="changelog_not_available">変更ログが利用できません。</string>
+    <string name="toast_notifications_enabled">通知が有効になりました</string>
+    <string name="toast_notifications_permission_denied">通知の許可が拒否されました</string>
+    <string name="separator_bullet"> • </string>
 </resources>
