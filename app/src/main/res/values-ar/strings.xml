@@ -47,7 +47,7 @@
     <string name="update_failed_notification">فشل التحديث</string>
     <string name="installation_suspended_notification">تم تعليق التثبيت</string>
     <string name="new_updates_found_title">تحديثات جديدة</string>
-    <string name="text_download_speed">سرعة تنزيل النص</string>
+    <string name="text_download_speed">%1$s، %2$s/ثانية</string>
     <string name="pause_button">يوقف</string>
     <string name="resume_button">سيرة ذاتية</string>
     <string name="suspend_button">تعليق</string>
@@ -146,7 +146,7 @@
     <string name="checkbox_metered_network_warning">لا تظهر مرة أخرى</string>
     <string name="menu_metered_network_warning">تحذير الشبكة المقرن</string>
     <string name="blocked_update_dialog_title">تم حظر التحديث</string>
-    <string name="blocked_update_dialog_message">This update cannot be installed using the updater app.  Please read <xliff:g id="info_url">%1$s</xliff:g> for more information.</string>
+    <string name="blocked_update_dialog_message">لا يمكن تثبيت هذا التحديث باستخدام تطبيق المحدث. يرجى قراءة <xliff:g id="info_url">%1$s</xliff:g> لمزيد من المعلومات.</string>
     <string name="export_channel_title">إكمال التصدير</string>
     <string name="new_updates_channel_title">تحديثات جديدة</string>
     <string name="ongoing_channel_title">التنزيلات المستمرة</string>
