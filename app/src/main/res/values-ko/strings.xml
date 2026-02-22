@@ -1,145 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">업데이트</string>
-    <string name="display_name">업데이트</string>
-    <string name="updates_title">업데이트</string>
-    <string name="system_updates">시스템 업데이트</string>
-    <string name="up_to_date">최신</string>
-    <string name="build_specifier">공식 빌드</string>
-    <string name="changelog_guide">무엇을 새로운지 보려면 스 와이프하십시오</string>
-    <string name="changelog_title">무엇이 새로운가요?</string>
-    <string name="pref_save">구하다</string>
-    <string name="downloading_notification">다운로드</string>
-    <string name="verification_failed_notification">확인이 실패했습니다</string>
-    <string name="pref_cancel">취소</string>
-    <string name="verifying_download_notification">업데이트 확인</string>
-    <string name="update_available">업데이트 사용 가능</string>
-    <string name="download_completed_notification">다운로드 완료</string>
-    <string name="download_paused_notification">일시 정지 다운로드</string>
-    <string name="download_starting_notification">다운로드 시작</string>
-    <string name="download_paused_error_notification">오류를 다운로드하십시오</string>
-    <string name="pause_button">정지시키다</string>
-    <string name="new_updates_found_title">새로운 업데이트</string>
-    <string name="resume_button">재개하다</string>
-    <string name="suspend_button">유예하다</string>
-    <string name="update_failed_notification">업데이트가 실패했습니다</string>
-    <string name="installation_suspended_notification">설치 중단</string>
-    <string name="installing_update_error">오류를 설치하십시오</string>
-    <string name="installing_update_finished">업데이트 설치</string>
-    <string name="installing_update">업데이트 패키지 설치</string>
-    <string name="finalizing_package">패키지 설치 마무리</string>
-    <string name="dialog_prepare_zip_message">예비 업데이트 준비</string>
-    <string name="dialog_battery_low_title">낮은 배터리</string>
-    <string name="reboot">재부팅</string>
-    <string name="menu_refresh">새로 고치다</string>
-    <string name="dialog_battery_low_message_pct">배터리 레벨이 너무 낮아서 적어도</string>
-    <string name="dialog_scratch_mounted_message">다음 명령을 실행하고 업데이트를 다시 시도하십시오. \ n
-        • adb 루트 \ n
-        • adb enable-verity \ n
-        • ADB 재부팅</string>
-    <string name="menu_preferences">선호도</string>
-    <string name="menu_auto_updates_check_interval_daily">하루에 한 번</string>
-    <string name="menu_auto_updates_check_interval_monthly">한 달에 한 번</string>
-    <string name="dialog_scratch_mounted_title">오버레이프가 장착 된 상태에서 업데이트를 설치할 수 없습니다</string>
-    <string name="preparing_ota_first_boot">첫 번째 부팅 준비</string>
-    <string name="menu_delete_update">삭제</string>
-    <string name="menu_auto_updates_check_interval_never">절대</string>
-    <string name="menu_auto_updates_check_interval_weekly">일주일에 한 번</string>
-    <string name="menu_auto_updates_check">자동 업데이트 확인</string>
-    <string name="menu_copy_url">URL 복사</string>
-    <string name="menu_auto_delete_updates">설치하면 업데이트를 삭제합니다</string>
-    <string name="menu_show_changelog">Changelog를 보여주세요</string>
-    <string name="menu_export_update">내보내기 업데이트</string>
-    <string name="menu_ab_perf_mode">업데이트 프로세스 우선 순위를 정합니다</string>
-    <string name="menu_update_recovery">복구 업데이트</string>
-    <string name="snack_no_updates_found">새로운 업데이트가 없습니다</string>
-    <string name="snack_download_failed">다운로드가 실패했습니다. 인터넷 연결을 확인하고 나중에 다시 시도하십시오.</string>
-    <string name="snack_updates_check_failed">업데이트 확인에 실패했습니다. 인터넷 연결을 확인하고 나중에 다시 시도하십시오.</string>
-    <string name="snack_updates_found">새로운 업데이트가 발견되었습니다</string>
-    <string name="toast_forced_update_recovery">이 장치에서 계보 복구 업데이트를 비활성화하는 것은 불가능합니다.</string>
-    <string name="header_android_version">기계적 인조 인간</string>
-    <string name="snack_download_verification_failed">업데이트 확인에 실패했습니다.</string>
-    <string name="snack_download_verified">다운로드 완료.</string>
-    <string name="list_download_progress_newer"/>
-    <string name="list_download_progress_eta_newer"/>
-    <string name="list_verifying_update">업데이트 확인</string>
-    <string name="snack_update_not_installable">이 업데이트는 현재 빌드 위에 설치할 수 없습니다.</string>
-    <string name="header_last_updates_check">마지막으로 확인 :</string>
-    <string name="list_build_version">혈통</string>
-    <string name="action_download">다운로드</string>
-    <string name="action_pause">정지시키다</string>
-    <string name="action_resume">재개하다</string>
-    <string name="action_install">설치하다</string>
-    <string name="action_delete">삭제</string>
-    <string name="action_info">정보</string>
-    <string name="action_cancel">취소</string>
+<!--
+     Copyright (C) 2017-2024 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Updater</string>
+    <string name="display_name">Updater</string>
+    <string name="system_updates">System updates</string>
+    <string name="up_to_date">Up-to-date</string>
+    <string name="update_available">Update available</string>
+    <string name="official_specifier">Official</string>
+    <string name="build_specifier">Community</string>
+    <string name="updates_title">Updates</string>
+    <string name="changelog_guide">Swipe up to see what\'s new</string>
+    <string name="changelog_title">What\'s New?</string>
+    <string name="pref_save">Save</string>
+    <string name="pref_cancel">Cancel</string>
+    <!-- Directory where the update files will be downloaded and stored.
+         WARNING: The application can and will delete any unknown file. -->
+    <!-- Directory where the downloads will be exported to.
+         The path is relative to the root of the external storage.-->
+    <!--
+        Optional placeholders replaced at runtime:
+          {device} - Device name
+          {type} - Build type
+          {incr} - Incremental version
+    -->
+    <string name="verification_failed_notification">Verification failed</string>
+    <string name="verifying_download_notification">Verifying update</string>
+    <string name="downloading_notification">Downloading</string>
+    <string name="download_paused_notification">Download paused</string>
+    <string name="download_paused_error_notification">Download error</string>
+    <string name="download_completed_notification">Download completed</string>
+    <string name="download_starting_notification">Starting download</string>
+    <string name="update_failed_notification">Update failed</string>
+    <string name="installation_suspended_notification">Installation suspended</string>
+    <string name="new_updates_found_title">New updates</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="pause_button">Pause</string>
+    <string name="resume_button">Resume</string>
+    <string name="suspend_button">Suspend</string>
+    <string name="installing_update">Installing update package</string>
+    <string name="installing_update_error">Install error</string>
+    <string name="installing_update_finished">Update installed</string>
+    <string name="finalizing_package">Finalizing package installation</string>
+    <string name="preparing_ota_first_boot">Preparing for first boot</string>
+    <string name="dialog_prepare_zip_message">Preliminary update preparation</string>
+    <string name="dialog_battery_low_title">Low battery</string>
+    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
+    <string name="dialog_scratch_mounted_message"><![CDATA[        Please run the following commands and retry the update:\n
+        • adb root\n
+        • adb enable-verity\n
+        • adb reboot
+        ]]></string>
+    <string name="dialog_scratch_mounted_title">Cannot install update with OverlayFS mounted</string>
+    <string name="reboot">Reboot</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_auto_updates_check">Auto updates check</string>
+    <string name="menu_auto_updates_check_interval_daily">Once a day</string>
+    <string name="menu_auto_updates_check_interval_weekly">Once a week</string>
+    <string name="menu_auto_updates_check_interval_monthly">Once a month</string>
+    <string name="menu_auto_updates_check_interval_never">Never</string>
+    <string name="menu_auto_delete_updates">Delete updates when installed</string>
+    <string name="menu_delete_update">Delete</string>
+    <string name="menu_copy_url">Copy URL</string>
+    <string name="menu_export_update">Export update</string>
+    <string name="menu_show_changelog">Show changelog</string>
+    <string name="menu_ab_perf_mode">Prioritize update process</string>
+    <string name="menu_update_recovery">Update recovery</string>
+    <string name="toast_forced_update_recovery">It is impossible to disable Lineage Recovery updates on this device.</string>
+    <string name="snack_updates_found">New updates found</string>
+    <string name="snack_no_updates_found">No new updates found</string>
+    <string name="snack_updates_check_failed">The update check failed. Please check your internet connection and try again later.</string>
+    <string name="snack_download_failed">The download failed. Please check your internet connection and try again later.</string>
+    <string name="snack_download_verification_failed">The update verification failed.</string>
+    <string name="snack_download_verified">Download completed.</string>
+    <string name="snack_update_not_installable">This update can\'t be installed on top of the current build.</string>
+    <string name="header_title_text">LineageOS\n%1$s</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
+    <string name="header_last_updates_check">Last checked: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
+    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
+    <string name="list_verifying_update">Verifying update</string>
+    <string name="list_no_updates">No new updates found. To manually check for new updates, use the Refresh button.</string>
+    <string name="action_download">Download</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_install">Install</string>
+    <string name="action_info">Info</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
     <string name="action_na">N/A</string>
-    <string name="confirm_delete_dialog_title">파일 삭제</string>
-    <string name="list_build_version_date">혈통</string>
-    <string name="list_no_updates">새로운 업데이트가 없습니다. 새 업데이트를 수동으로 확인하려면 새로 고침 버튼을 사용하십시오.</string>
-    <string name="confirm_delete_dialog_message">선택한 업데이트 파일을 삭제 하시겠습니까?</string>
-    <string name="cancel_installation_dialog_message">설치를 취소 하시겠습니까?</string>
-    <string name="apply_update_dialog_message">당신은 설치하려고합니다</string>
-    <string name="apply_update_dialog_message_ab">당신은 설치하려고합니다</string>
-    <string name="apply_update_dialog_title">업데이트를 적용하십시오</string>
-    <string name="label_download_url">URL을 다운로드하십시오</string>
-    <string name="notification_export_success">내보내기 업데이트</string>
-    <string name="dialog_export_title">내보내기 업데이트</string>
-    <string name="toast_download_url_copied">URL 복사</string>
-    <string name="notification_export_fail">내보내기 오류</string>
-    <string name="update_over_metered_network_title">경고</string>
-    <string name="menu_metered_network_warning">계량 네트워크 경고</string>
-    <string name="toast_already_exporting">이미 업데이트를 내보내고 있습니다</string>
-    <string name="checkbox_metered_network_warning">다시 보여주지 마십시오</string>
-    <string name="update_over_metered_network_message">미터 네트워크를 통해 업데이트 패키지를 다운로드하여 높은 데이터 사용을 유발할 수 있습니다. 진행 하시겠습니까?</string>
-    <string name="toast_export_started">수출이 시작되었습니다</string>
-    <string name="new_updates_channel_title">새로운 업데이트</string>
-    <string name="update_failed_channel_title">업데이트가 실패했습니다</string>
-    <string name="info_dialog_title">알고 있었나요?</string>
-    <string name="blocked_update_dialog_title">업데이트 차단</string>
-    <string name="blocked_update_dialog_message">이 업데이트는 업데이트 앱을 사용하여 설치할 수 없습니다.  읽어주세요</string>
-    <string name="info_dialog_message">Lineageos 업데이트는 전체 설치 패키지입니다. 즉, 사이에 일부를 건너 뛰더라도 항상 최신 업데이트 만 설치할 수 있습니다!</string>
-    <string name="ongoing_channel_title">진행중인 다운로드</string>
-    <string name="export_channel_title">수출 완료</string>
-    <string name="local_update_import_install">설치하다</string>
-    <string name="info_dialog_ok">정보 주셔서 감사합니다!</string>
-    <string name="local_update_import_failure">로컬 업데이트를 가져 오지 못했습니다</string>
-    <string name="local_update_import">로컬 업데이트</string>
-    <string name="local_update_import_progress">로컬 업데이트 가져 오기 \ U2026</string>
-    <string name="welcome_title">환영</string>
-    <string name="local_update_name">로컬 업데이트</string>
-    <string name="welcome_message">여러 업데이트를 사용할 수 있으면 업데이트 별 업데이트가 필요하지 않으며 항상 최신 업데이트를 직접 설치 한 다음 오래된 업데이트를 안전하게 삭제하여 저장 공간을 확정 할 수 있습니다.</string>
+    <string name="confirm_delete_dialog_title">Delete file</string>
+    <string name="confirm_delete_dialog_message">Delete the selected update file?</string>
+    <string name="apply_update_dialog_title">Apply update</string>
+    <string name="apply_update_dialog_message">You are about to install <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
+    <string name="apply_update_dialog_message_ab">You are about to install <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
+    <string name="cancel_installation_dialog_message">Cancel the installation?</string>
+    <string name="label_download_url">Download URL</string>
+    <string name="toast_download_url_copied">URL Copied</string>
+    <string name="dialog_export_title">Exporting update</string>
+    <string name="notification_export_success">Update exported</string>
+    <string name="notification_export_fail">Export error</string>
+    <string name="toast_already_exporting">Already exporting an update</string>
+    <string name="toast_export_started">Export started</string>
+    <plurals name="eta_seconds">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes left</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
+    </plurals>
+    <string name="update_over_metered_network_title">Warning</string>
+    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
+    <string name="checkbox_metered_network_warning">Do not show again</string>
+    <string name="menu_metered_network_warning">Metered network warning</string>
+    <string name="blocked_update_dialog_title">Update blocked</string>
+    <string name="blocked_update_dialog_message">This update cannot be installed using the updater app.  Please read <xliff:g id="info_url">%1$s</xliff:g> for more information.</string>
+    <string name="export_channel_title">Export completion</string>
+    <string name="new_updates_channel_title">New updates</string>
+    <string name="ongoing_channel_title">Ongoing downloads</string>
+    <string name="update_failed_channel_title">Update failed</string>
+    <string name="info_dialog_title">Did you know?</string>
+    <string name="info_dialog_message">LineageOS updates are full installation packages. That means you can always install only the latest update, even if you skipped some in between!</string>
+    <string name="info_dialog_ok">Thanks for the info!</string>
+    <string name="local_update_import">Local update</string>
+    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_import_success">%1$s has been imported. Do you want to install it?</string>
+    <string name="local_update_import_failure">Failed to import local update</string>
+    <string name="local_update_import_install">Install</string>
+    <string name="local_update_name">Local update</string>
+    <string name="local_update_import_warning_title">Precaution!</string>
+    <string name="local_update_import_warning_message">    Performing a local update will overwrite existing partitions, and it cannot restore any sideloaded GApps or packages. 
+    If you have sideloaded packages, it is advised to use recovery sideload instead.
+    </string>
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_message">Please note that when multiple updates are available, there is no need to go update-by-update, you can always install the latest one directly, and then safely delete old updates to free up storage space.</string>
     <!-- Axion UI -->
-    <string name="screen_home">홈</string>
-    <string name="screen_update">업데이트</string>
-    <string name="screen_import">가져오기</string>
-    <string name="content_description_back">뒤로</string>
-    <string name="content_description_menu">메뉴</string>
-    <string name="content_description_experimental_build">실험적 빌드</string>
-    <string name="beta_label">오픈 베타</string>
+    <string name="screen_home">Home</string>
+    <string name="screen_update">Update</string>
+    <string name="screen_import">Import</string>
+    <string name="content_description_back">Back</string>
+    <string name="content_description_menu">Menu</string>
+    <string name="content_description_experimental_build">Experimental build</string>
+    <string name="beta_label">Open BETA</string>
     <string name="rom_name">AxionOS</string>
-    <string name="default_maintainer">알 수 없음</string>
+    <string name="default_maintainer">Unknown</string>
     <string name="default_version">2.0</string>
-    <string name="default_device">알 수 없는 기기</string>
-    <string name="local_update_label">로컬 업데이트</string>
-    <string name="label_version">버전:</string>
-    <string name="label_size">크기</string>
-    <string name="label_date">날짜</string>
-    <string name="label_type">유형</string>
-    <string name="label_status">상태</string>
-    <string name="label_eta">남은 시간</string>
-    <string name="label_speed">속도</string>
-    <string name="unit_kilobytes_per_second">KB/초</string>
+    <string name="default_device">Unknown Device</string>
+    <string name="local_update_label">Local update</string>
+    <string name="label_version">Version:</string>
+    <string name="label_size">Size</string>
+    <string name="label_date">Date</string>
+    <string name="label_type">Type</string>
+    <string name="label_status">Status</string>
+    <string name="label_eta">ETA</string>
+    <string name="label_speed">Speed</string>
+    <string name="unit_kilobytes_per_second">KB/s</string>
     <string name="unit_megabytes">MB</string>
     <string name="unit_kilobytes">KB</string>
     <string name="unit_percent">%</string>
     <string name="bullet_point">•</string>
-    <string name="toast_no_internet_or_service">인터넷 연결이 없거나 서비스가 준비되지 않았습니다.</string>
-    <string name="toast_unable_to_pause">다운로드를 일시 중지할 수 없습니다.</string>
-    <string name="toast_unable_to_delete">다운로드를 삭제할 수 없습니다.</string>
-    <string name="changelog_loading">변경 로그 로드 중…</string>
-    <string name="changelog_not_available">사용 가능한 변경 로그가 없습니다.</string>
-    <string name="toast_notifications_enabled">알림이 활성화되었습니다</string>
-    <string name="toast_notifications_permission_denied">알림 권한이 거부되었습니다</string>
+    <string name="toast_no_internet_or_service">No internet connection or service not ready.</string>
+    <string name="toast_unable_to_pause">Unable to pause download.</string>
+    <string name="toast_unable_to_delete">Unable to delete download.</string>
+    <string name="changelog_loading">Loading changelog…</string>
+    <string name="changelog_not_available">No changelog available.</string>
+    <string name="toast_notifications_enabled">Notifications enabled</string>
+    <string name="toast_notifications_permission_denied">Notifications permission denied</string>
     <string name="separator_bullet"> • </string>
 </resources>
