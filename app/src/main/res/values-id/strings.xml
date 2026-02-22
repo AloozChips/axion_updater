@@ -54,10 +54,10 @@
     <string name="installing_update">Memasang paket pembaruan</string>
     <string name="installing_update_error">Pemasangan error</string>
     <string name="installing_update_finished">Pembaruan telah di pasang</string>
-    <string name="finalizing_package">Finalizing package installation</string>
-    <string name="preparing_ota_first_boot">Preparing for first boot</string>
-    <string name="dialog_prepare_zip_message">Preliminary update preparation</string>
-    <string name="dialog_battery_low_title">Low battery</string>
+    <string name="finalizing_package">Menyelesaikan instalasi paket</string>
+    <string name="preparing_ota_first_boot">Persiapan untuk boot</string>
+    <string name="dialog_prepare_zip_message">Persiapan pembaruan awal</string>
+    <string name="dialog_battery_low_title">Baterai lemah</string>
     <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
     <string name="dialog_scratch_mounted_message"><![CDATA[        Please run the following commands and retry the update:\n
         • adb root\n
@@ -67,18 +67,18 @@
     <string name="dialog_scratch_mounted_title">Cannot install update with OverlayFS mounted</string>
     <string name="reboot">Mulai ulang</string>
     <string name="menu_refresh">Segarkan</string>
-    <string name="menu_preferences">Preferences</string>
-    <string name="menu_auto_updates_check">Auto updates check</string>
-    <string name="menu_auto_updates_check_interval_daily">Once a day</string>
-    <string name="menu_auto_updates_check_interval_weekly">Once a week</string>
-    <string name="menu_auto_updates_check_interval_monthly">Once a month</string>
-    <string name="menu_auto_updates_check_interval_never">Never</string>
-    <string name="menu_auto_delete_updates">Delete updates when installed</string>
+    <string name="menu_preferences">Preferensi</string>
+    <string name="menu_auto_updates_check">Pemeriksaan pembaruan otomatis</string>
+    <string name="menu_auto_updates_check_interval_daily">Sekali sehari</string>
+    <string name="menu_auto_updates_check_interval_weekly">Sekali seminggu</string>
+    <string name="menu_auto_updates_check_interval_monthly">Sekali sebulan</string>
+    <string name="menu_auto_updates_check_interval_never">Tidak pernah</string>
+    <string name="menu_auto_delete_updates">Hapus update ketika sudah dipasang</string>
     <string name="menu_delete_update">Hapus</string>
     <string name="menu_copy_url">Salin URL</string>
     <string name="menu_export_update">Ekspor pembaruan</string>
     <string name="menu_show_changelog">Tampilkan changelog</string>
-    <string name="menu_ab_perf_mode">Prioritize update process</string>
+    <string name="menu_ab_perf_mode">Prioritaskan proses pembaruan</string>
     <string name="menu_update_recovery">Update recovery</string>
     <string name="toast_forced_update_recovery">It is impossible to disable Lineage Recovery updates on this device.</string>
     <string name="snack_updates_found">New updates found</string>
