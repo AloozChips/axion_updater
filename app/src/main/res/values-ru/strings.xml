@@ -15,18 +15,18 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Updater</string>
-    <string name="display_name">Updater</string>
-    <string name="system_updates">System updates</string>
-    <string name="up_to_date">Up-to-date</string>
-    <string name="update_available">Update available</string>
+    <string name="app_name">Обновляющий</string>
+    <string name="display_name">Обновляющий</string>
+    <string name="system_updates">Обновления системы</string>
+    <string name="up_to_date">До настоящего времени</string>
+    <string name="update_available">Обновление доступно</string>
     <string name="official_specifier">Official</string>
-    <string name="build_specifier">Community</string>
-    <string name="updates_title">Updates</string>
-    <string name="changelog_guide">Swipe up to see what\'s new</string>
-    <string name="changelog_title">What\'s New?</string>
-    <string name="pref_save">Save</string>
-    <string name="pref_cancel">Cancel</string>
+    <string name="build_specifier">Официальное строительство</string>
+    <string name="updates_title">Обновления</string>
+    <string name="changelog_guide">Проведите, чтобы увидеть, что новое</string>
+    <string name="changelog_title">Что нового?</string>
+    <string name="pref_save">Сохранять</string>
+    <string name="pref_cancel">Отмена</string>
     <!-- Directory where the update files will be downloaded and stored.
          WARNING: The application can and will delete any unknown file. -->
     <!-- Directory where the downloads will be exported to.
@@ -37,57 +37,56 @@
           {type} - Build type
           {incr} - Incremental version
     -->
-    <string name="verification_failed_notification">Verification failed</string>
-    <string name="verifying_download_notification">Verifying update</string>
-    <string name="downloading_notification">Downloading</string>
-    <string name="download_paused_notification">Download paused</string>
-    <string name="download_paused_error_notification">Download error</string>
-    <string name="download_completed_notification">Download completed</string>
-    <string name="download_starting_notification">Starting download</string>
-    <string name="update_failed_notification">Update failed</string>
-    <string name="installation_suspended_notification">Installation suspended</string>
-    <string name="new_updates_found_title">New updates</string>
+    <string name="verification_failed_notification">Проверка не удалась</string>
+    <string name="verifying_download_notification">Проверка обновления</string>
+    <string name="downloading_notification">Загрузка</string>
+    <string name="download_paused_notification">Скачать приостановлен</string>
+    <string name="download_paused_error_notification">Загрузить ошибку</string>
+    <string name="download_completed_notification">Загрузка завершена</string>
+    <string name="download_starting_notification">Начальная загрузка</string>
+    <string name="update_failed_notification">Обновление не удалось</string>
+    <string name="installation_suspended_notification">Установка подвешена</string>
+    <string name="new_updates_found_title">Новые обновления</string>
     <string name="text_download_speed">%1$s, %2$s/s</string>
-    <string name="pause_button">Pause</string>
-    <string name="resume_button">Resume</string>
-    <string name="suspend_button">Suspend</string>
-    <string name="installing_update">Installing update package</string>
-    <string name="installing_update_error">Install error</string>
-    <string name="installing_update_finished">Update installed</string>
-    <string name="finalizing_package">Finalizing package installation</string>
-    <string name="preparing_ota_first_boot">Preparing for first boot</string>
-    <string name="dialog_prepare_zip_message">Preliminary update preparation</string>
-    <string name="dialog_battery_low_title">Low battery</string>
+    <string name="pause_button">Пауза</string>
+    <string name="resume_button">Резюме</string>
+    <string name="suspend_button">Приостановить</string>
+    <string name="installing_update">Установка пакета обновления</string>
+    <string name="installing_update_error">Установить ошибку</string>
+    <string name="installing_update_finished">Обновление установлено</string>
+    <string name="finalizing_package">Дополнение установки пакета</string>
+    <string name="preparing_ota_first_boot">Подготовка к первой загрузке</string>
+    <string name="dialog_prepare_zip_message">Предварительная подготовка обновления</string>
+    <string name="dialog_battery_low_title">Низкая батарея</string>
     <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
-    <string name="dialog_scratch_mounted_message"><![CDATA[        Please run the following commands and retry the update:\n
-        • adb root\n
-        • adb enable-verity\n
-        • adb reboot
-        ]]></string>
-    <string name="dialog_scratch_mounted_title">Cannot install update with OverlayFS mounted</string>
-    <string name="reboot">Reboot</string>
-    <string name="menu_refresh">Refresh</string>
-    <string name="menu_preferences">Preferences</string>
-    <string name="menu_auto_updates_check">Auto updates check</string>
-    <string name="menu_auto_updates_check_interval_daily">Once a day</string>
-    <string name="menu_auto_updates_check_interval_weekly">Once a week</string>
-    <string name="menu_auto_updates_check_interval_monthly">Once a month</string>
-    <string name="menu_auto_updates_check_interval_never">Never</string>
-    <string name="menu_auto_delete_updates">Delete updates when installed</string>
-    <string name="menu_delete_update">Delete</string>
-    <string name="menu_copy_url">Copy URL</string>
-    <string name="menu_export_update">Export update</string>
-    <string name="menu_show_changelog">Show changelog</string>
-    <string name="menu_ab_perf_mode">Prioritize update process</string>
-    <string name="menu_update_recovery">Update recovery</string>
-    <string name="toast_forced_update_recovery">It is impossible to disable Lineage Recovery updates on this device.</string>
-    <string name="snack_updates_found">New updates found</string>
-    <string name="snack_no_updates_found">No new updates found</string>
-    <string name="snack_updates_check_failed">The update check failed. Please check your internet connection and try again later.</string>
-    <string name="snack_download_failed">The download failed. Please check your internet connection and try again later.</string>
-    <string name="snack_download_verification_failed">The update verification failed.</string>
-    <string name="snack_download_verified">Download completed.</string>
-    <string name="snack_update_not_installable">This update can\'t be installed on top of the current build.</string>
+    <string name="dialog_scratch_mounted_message"><![CDATA[Пожалуйста, запустите следующие команды и повторите обновление: \ n
+        • adb root \ n
+        • ADB Enable-Verity \ n
+        • Перезагрузка ADB]]></string>
+    <string name="dialog_scratch_mounted_title">Не может установить обновление с монтированными перекрыванием</string>
+    <string name="reboot">Перезагрузить</string>
+    <string name="menu_refresh">Обновлять</string>
+    <string name="menu_preferences">Предпочтения</string>
+    <string name="menu_auto_updates_check">Автоматические обновления Проверка</string>
+    <string name="menu_auto_updates_check_interval_daily">Раз в день</string>
+    <string name="menu_auto_updates_check_interval_weekly">Раз в неделю</string>
+    <string name="menu_auto_updates_check_interval_monthly">Раз в месяц</string>
+    <string name="menu_auto_updates_check_interval_never">Никогда</string>
+    <string name="menu_auto_delete_updates">Удалить обновления при установке</string>
+    <string name="menu_delete_update">Удалить</string>
+    <string name="menu_copy_url">Копия URL</string>
+    <string name="menu_export_update">Обновление экспорта</string>
+    <string name="menu_show_changelog">Showlagelog</string>
+    <string name="menu_ab_perf_mode">Распределите приоритет процесса обновления</string>
+    <string name="menu_update_recovery">Обновление восстановления</string>
+    <string name="toast_forced_update_recovery">Невозможно отключить обновления восстановления линии на этом устройстве.</string>
+    <string name="snack_updates_found">Новые обновления найдены</string>
+    <string name="snack_no_updates_found">Новых обновлений не найдено</string>
+    <string name="snack_updates_check_failed">Проверка обновления не удалась. Пожалуйста, проверьте свое подключение к Интернету и попробуйте еще раз позже.</string>
+    <string name="snack_download_failed">Загрузка не удалась. Пожалуйста, проверьте свое подключение к Интернету и попробуйте еще раз позже.</string>
+    <string name="snack_download_verification_failed">Проверка обновления не удалась.</string>
+    <string name="snack_download_verified">Загрузка завершена.</string>
+    <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки.</string>
     <string name="header_title_text">LineageOS\n%1$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
     <string name="header_last_updates_check">Last checked: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
@@ -95,29 +94,29 @@
     <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
     <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
     <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
-    <string name="list_verifying_update">Verifying update</string>
-    <string name="list_no_updates">No new updates found. To manually check for new updates, use the Refresh button.</string>
-    <string name="action_download">Download</string>
-    <string name="action_pause">Pause</string>
-    <string name="action_resume">Resume</string>
-    <string name="action_install">Install</string>
-    <string name="action_info">Info</string>
-    <string name="action_delete">Delete</string>
-    <string name="action_cancel">Cancel</string>
-    <string name="action_na">N/A</string>
-    <string name="confirm_delete_dialog_title">Delete file</string>
-    <string name="confirm_delete_dialog_message">Delete the selected update file?</string>
-    <string name="apply_update_dialog_title">Apply update</string>
+    <string name="list_verifying_update">Проверка обновления</string>
+    <string name="list_no_updates">Никаких новых обновлений не найдено. Чтобы вручную проверить новые обновления, используйте кнопку обновления.</string>
+    <string name="action_download">Скачать</string>
+    <string name="action_pause">Пауза</string>
+    <string name="action_resume">Резюме</string>
+    <string name="action_install">Установить</string>
+    <string name="action_info">Информация</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_na">N/a</string>
+    <string name="confirm_delete_dialog_title">Удалить файл</string>
+    <string name="confirm_delete_dialog_message">Удалить выбранный файл обновления?</string>
+    <string name="apply_update_dialog_title">Применить обновление</string>
     <string name="apply_update_dialog_message">You are about to install <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
     <string name="apply_update_dialog_message_ab">You are about to install <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
-    <string name="cancel_installation_dialog_message">Cancel the installation?</string>
-    <string name="label_download_url">Download URL</string>
-    <string name="toast_download_url_copied">URL Copied</string>
-    <string name="dialog_export_title">Exporting update</string>
-    <string name="notification_export_success">Update exported</string>
-    <string name="notification_export_fail">Export error</string>
-    <string name="toast_already_exporting">Already exporting an update</string>
-    <string name="toast_export_started">Export started</string>
+    <string name="cancel_installation_dialog_message">Отменить установку?</string>
+    <string name="label_download_url">Скачать URL</string>
+    <string name="toast_download_url_copied">URL скопирован</string>
+    <string name="dialog_export_title">Экспорт обновления</string>
+    <string name="notification_export_success">Обновление экспортируется</string>
+    <string name="notification_export_fail">Экспортная ошибка</string>
+    <string name="toast_already_exporting">Уже экспортируя обновление</string>
+    <string name="toast_export_started">Экспорт начался</string>
     <plurals name="eta_seconds">
         <item quantity="one">1 second left</item>
         <item quantity="few"><xliff:g id="count">%d</xliff:g> seconds left</item>
@@ -136,62 +135,62 @@
         <item quantity="many"><xliff:g id="count">%d</xliff:g> hours left</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
     </plurals>
-    <string name="update_over_metered_network_title">Warning</string>
-    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_metered_network_warning">Do not show again</string>
-    <string name="menu_metered_network_warning">Metered network warning</string>
-    <string name="blocked_update_dialog_title">Update blocked</string>
+    <string name="update_over_metered_network_title">Предупреждение</string>
+    <string name="update_over_metered_network_message">Вы собираетесь загрузить пакет обновлений по измеренной сети, которая, вероятно, вызовет высокое использование данных. Вы хотите продолжить?</string>
+    <string name="checkbox_metered_network_warning">Не показывай снова</string>
+    <string name="menu_metered_network_warning">Измеренное сетевое предупреждение</string>
+    <string name="blocked_update_dialog_title">Обновление заблокировано</string>
     <string name="blocked_update_dialog_message">This update cannot be installed using the updater app.  Please read <xliff:g id="info_url">%1$s</xliff:g> for more information.</string>
-    <string name="export_channel_title">Export completion</string>
-    <string name="new_updates_channel_title">New updates</string>
-    <string name="ongoing_channel_title">Ongoing downloads</string>
-    <string name="update_failed_channel_title">Update failed</string>
-    <string name="info_dialog_title">Did you know?</string>
-    <string name="info_dialog_message">LineageOS updates are full installation packages. That means you can always install only the latest update, even if you skipped some in between!</string>
-    <string name="info_dialog_ok">Thanks for the info!</string>
-    <string name="local_update_import">Local update</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="export_channel_title">Экспортное завершение</string>
+    <string name="new_updates_channel_title">Новые обновления</string>
+    <string name="ongoing_channel_title">Продолжающиеся загрузки</string>
+    <string name="update_failed_channel_title">Обновление не удалось</string>
+    <string name="info_dialog_title">Вы знали?</string>
+    <string name="info_dialog_message">Обновления Lineageos являются полными пакетами установки. Это означает, что вы всегда можете установить только последнее обновление, даже если вы пропустили некоторые между ними!</string>
+    <string name="info_dialog_ok">Спасибо за информацию!</string>
+    <string name="local_update_import">Локальное обновление</string>
+    <string name="local_update_import_progress">Импорт локального обновления \ U2026</string>
     <string name="local_update_import_success">%1$s has been imported. Do you want to install it?</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
-    <string name="local_update_import_install">Install</string>
-    <string name="local_update_name">Local update</string>
+    <string name="local_update_import_failure">Не удалось импортировать локальное обновление</string>
+    <string name="local_update_import_install">Установить</string>
+    <string name="local_update_name">Локальное обновление</string>
     <string name="local_update_import_warning_title">Precaution!</string>
     <string name="local_update_import_warning_message">    Performing a local update will overwrite existing partitions, and it cannot restore any sideloaded GApps or packages. 
     If you have sideloaded packages, it is advised to use recovery sideload instead.
     </string>
-    <string name="welcome_title">Welcome</string>
-    <string name="welcome_message">Please note that when multiple updates are available, there is no need to go update-by-update, you can always install the latest one directly, and then safely delete old updates to free up storage space.</string>
+    <string name="welcome_title">Добро пожаловать</string>
+    <string name="welcome_message">Обратите внимание, что когда доступно несколько обновлений, нет необходимости перейти на обновления, вы всегда можете установить последний непосредственно, а затем безопасно удалять старые обновления, чтобы освободить место для хранения.</string>
     <!-- Axion UI -->
-    <string name="screen_home">Home</string>
-    <string name="screen_update">Update</string>
-    <string name="screen_import">Import</string>
-    <string name="content_description_back">Back</string>
-    <string name="content_description_menu">Menu</string>
-    <string name="content_description_experimental_build">Experimental build</string>
-    <string name="beta_label">Open BETA</string>
+    <string name="screen_home">Главный экран</string>
+    <string name="screen_update">Обновить</string>
+    <string name="screen_import">Импорт</string>
+    <string name="content_description_back">Назад</string>
+    <string name="content_description_menu">Меню</string>
+    <string name="content_description_experimental_build">Экспериментальная сборка</string>
+    <string name="beta_label">ОТКРЫТАЯ БЕТА</string>
     <string name="rom_name">AxionOS</string>
-    <string name="default_maintainer">Unknown</string>
+    <string name="default_maintainer">Неизвестно</string>
     <string name="default_version">2.0</string>
-    <string name="default_device">Unknown Device</string>
-    <string name="local_update_label">Local update</string>
-    <string name="label_version">Version:</string>
-    <string name="label_size">Size</string>
-    <string name="label_date">Date</string>
-    <string name="label_type">Type</string>
-    <string name="label_status">Status</string>
-    <string name="label_eta">ETA</string>
-    <string name="label_speed">Speed</string>
-    <string name="unit_kilobytes_per_second">KB/s</string>
-    <string name="unit_megabytes">MB</string>
-    <string name="unit_kilobytes">KB</string>
+    <string name="default_device">Неизвестное устройство</string>
+    <string name="local_update_label">Локальное обновление</string>
+    <string name="label_version">Версия:</string>
+    <string name="label_size">Размер</string>
+    <string name="label_date">Дата</string>
+    <string name="label_type">Тип</string>
+    <string name="label_status">Статус</string>
+    <string name="label_eta">Осталось времени</string>
+    <string name="label_speed">Скорость</string>
+    <string name="unit_kilobytes_per_second">КБ/с</string>
+    <string name="unit_megabytes">МБ</string>
+    <string name="unit_kilobytes">КБ</string>
     <string name="unit_percent">%</string>
     <string name="bullet_point">•</string>
-    <string name="toast_no_internet_or_service">No internet connection or service not ready.</string>
-    <string name="toast_unable_to_pause">Unable to pause download.</string>
-    <string name="toast_unable_to_delete">Unable to delete download.</string>
-    <string name="changelog_loading">Loading changelog…</string>
-    <string name="changelog_not_available">No changelog available.</string>
-    <string name="toast_notifications_enabled">Notifications enabled</string>
-    <string name="toast_notifications_permission_denied">Notifications permission denied</string>
+    <string name="toast_no_internet_or_service">Нет подключения к Интернету или служба не готова.</string>
+    <string name="toast_unable_to_pause">Не удалось приостановить загрузку.</string>
+    <string name="toast_unable_to_delete">Не удалось удалить загрузку.</string>
+    <string name="changelog_loading">Загрузка журнала изменений…</string>
+    <string name="changelog_not_available">Журнал изменений недоступен.</string>
+    <string name="toast_notifications_enabled">Уведомления включены</string>
+    <string name="toast_notifications_permission_denied">Разрешение на уведомления отклонено</string>
     <string name="separator_bullet"> • </string>
 </resources>
