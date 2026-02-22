@@ -47,7 +47,7 @@
     <string name="update_failed_notification">فشل التحديث</string>
     <string name="installation_suspended_notification">تم تعليق التثبيت</string>
     <string name="new_updates_found_title">تحديثات جديدة</string>
-    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="text_download_speed">سرعة تنزيل النص</string>
     <string name="pause_button">يوقف</string>
     <string name="resume_button">سيرة ذاتية</string>
     <string name="suspend_button">تعليق</string>
