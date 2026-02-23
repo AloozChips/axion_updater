@@ -22,11 +22,11 @@
     <string name="update_available">Güncelleme mevcut</string>
     <string name="official_specifier">Resmi</string>
     <string name="build_specifier">Topluluk</string>
-    <string name="updates_title">Updates</string>
-    <string name="changelog_guide">Swipe up to see what\'s new</string>
-    <string name="changelog_title">What\'s New?</string>
-    <string name="pref_save">Save</string>
-    <string name="pref_cancel">Cancel</string>
+    <string name="updates_title">Güncellemeler</string>
+    <string name="changelog_guide">Yenilikler için yukarı kaydırın</string>
+    <string name="changelog_title">Neler Yeni?</string>
+    <string name="pref_save">Kaydet</string>
+    <string name="pref_cancel">Vazgeç</string>
     <!-- Directory where the update files will be downloaded and stored.
          WARNING: The application can and will delete any unknown file. -->
     <!-- Directory where the downloads will be exported to.
@@ -103,8 +103,8 @@
     <string name="action_install">Yükle</string>
     <string name="action_info">Bilgi</string>
     <string name="action_delete">Sil</string>
-    <string name="action_cancel">Cancel</string>
-    <string name="action_na">N/A</string>
+    <string name="action_cancel">Vazgeç</string>
+    <string name="action_na">Mevcut değil</string>
     <string name="confirm_delete_dialog_title">Dosya sil</string>
     <string name="confirm_delete_dialog_message">Seçilen güncelleme dosyası silinsin mi?</string>
     <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
@@ -149,10 +149,9 @@
     <string name="local_update_import_failure">Yerel güncelleme içe aktarılamadı</string>
     <string name="local_update_import_install">Yükle</string>
     <string name="local_update_name">Yerel güncelleme</string>
-    <string name="local_update_import_warning_title">Precaution!</string>
-    <string name="local_update_import_warning_message">    Performing a local update will overwrite existing partitions, and it cannot restore any sideloaded GApps or packages. 
-    If you have sideloaded packages, it is advised to use recovery sideload instead.
-    </string>
+    <string name="local_update_import_warning_title">Dikkat!</string>
+    <string name="local_update_import_warning_message">Yerel güncelleme mevcut bölümlerin üzerine yazar ve yan yüklenen GApps uygulamalarını veya paketleri geri yüklemez.
+Bu tür paketler yüklüyse, kurtarma modunda yan yükleme kullanmanız önerilir.    </string>
     <string name="welcome_title">Hoş Geldiniz</string>
     <string name="welcome_message">Eğer birden fazla güncelleştirme mevcutsa bunları tek tek yüklemeniz gerekmez. Son güncelleştirmeyi uygulayıp eski güncelleştirmeleri silerek depolama alanınızdan tasarruf edebilirsiniz.</string>
     <!-- Axion UI -->
