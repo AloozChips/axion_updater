@@ -17,11 +17,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Güncelleyici</string>
     <string name="display_name">Güncelleyici</string>
-    <string name="system_updates">System updates</string>
-    <string name="up_to_date">Up-to-date</string>
-    <string name="update_available">Update available</string>
-    <string name="official_specifier">Official</string>
-    <string name="build_specifier">Community</string>
+    <string name="system_updates">Sistem güncellemeleri</string>
+    <string name="up_to_date">Güncel</string>
+    <string name="update_available">Güncelleme mevcut</string>
+    <string name="official_specifier">Resmi</string>
+    <string name="build_specifier">Topluluk</string>
     <string name="updates_title">Updates</string>
     <string name="changelog_guide">Swipe up to see what\'s new</string>
     <string name="changelog_title">What\'s New?</string>
