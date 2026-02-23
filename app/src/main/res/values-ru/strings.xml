@@ -47,7 +47,7 @@
     <string name="update_failed_notification">Обновление не удалось</string>
     <string name="installation_suspended_notification">Установка подвешена</string>
     <string name="new_updates_found_title">Новые обновления</string>
-    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="text_download_speed">%1$s, %2$s/сек</string>
     <string name="pause_button">Пауза</string>
     <string name="resume_button">Резюме</string>
     <string name="suspend_button">Приостановить</string>
@@ -118,7 +118,7 @@
     <string name="toast_already_exporting">Уже экспортируя обновление</string>
     <string name="toast_export_started">Экспорт начался</string>
     <plurals name="eta_seconds">
-        <item quantity="one">1 second left</item>
+        <item quantity="one">Осталась: 1 сек.</item>
         <item quantity="few">Осталось: <xliff:g id="count">%d</xliff:g> сек.</item>
         <item quantity="many">Осталась: <xliff:g id="count">%d</xliff:g> сек.</item>
         <item quantity="other">Осталась: <xliff:g id="count">%d</xliff:g> сек.</item>
@@ -130,7 +130,7 @@
         <item quantity="other">Осталось: <xliff:g id="count">%d</xliff:g> мин.</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="one">1 hour left</item>
+        <item quantity="one">Осталось: 1 ч.</item>
         <item quantity="few">Осталось: <xliff:g id="count">%d</xliff:g> ч.</item>
         <item quantity="many">Осталось: <xliff:g id="count">%d</xliff:g> ч.</item>
         <item quantity="other">Осталось: <xliff:g id="count">%d</xliff:g> ч.</item>
@@ -140,7 +140,7 @@
     <string name="checkbox_metered_network_warning">Не показывай снова</string>
     <string name="menu_metered_network_warning">Измеренное сетевое предупреждение</string>
     <string name="blocked_update_dialog_title">Обновление заблокировано</string>
-    <string name="blocked_update_dialog_message">This update cannot be installed using the updater app.  Please read <xliff:g id="info_url">%1$s</xliff:g> for more information.</string>
+    <string name="blocked_update_dialog_message">Это обновление нельзя установить с помощью встроенной системы обновления. Пожалуйста, прочитайте <xliff:g id="info_url">%1$s</xliff:g> для получения дополнительной информации.</string>
     <string name="export_channel_title">Экспортное завершение</string>
     <string name="new_updates_channel_title">Новые обновления</string>
     <string name="ongoing_channel_title">Продолжающиеся загрузки</string>
@@ -150,7 +150,7 @@
     <string name="info_dialog_ok">Спасибо за информацию!</string>
     <string name="local_update_import">Локальное обновление</string>
     <string name="local_update_import_progress">Импорт локального обновления \ U2026</string>
-    <string name="local_update_import_success">%1$s has been imported. Do you want to install it?</string>
+    <string name="local_update_import_success">%1$s было импортирован. Вы хотите его установить?</string>
     <string name="local_update_import_failure">Не удалось импортировать локальное обновление</string>
     <string name="local_update_import_install">Установить</string>
     <string name="local_update_name">Локальное обновление</string>
