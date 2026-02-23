@@ -20,7 +20,7 @@
     <string name="system_updates">Actualizaciones del sistema</string>
     <string name="up_to_date">A hoy</string>
     <string name="update_available">Actualización disponible</string>
-    <string name="official_specifier">Official</string>
+    <string name="official_specifier">Oficial</string>
     <string name="build_specifier">Construcción oficial por</string>
     <string name="updates_title">Actualizaciones</string>
     <string name="changelog_guide">Deslizar hacia arriba para ver lo nuevo</string>
@@ -58,7 +58,7 @@
     <string name="preparing_ota_first_boot">Preparándose para el primer arranque</string>
     <string name="dialog_prepare_zip_message">Preparación de actualización preliminar</string>
     <string name="dialog_battery_low_title">Batería baja</string>
-    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
+    <string name="dialog_battery_low_message_pct">Tu batería está demasiado baja, necesitas por lo menos <xliff:g id="percent_discharging">%1$d</xliff:g>% de batería para continuar, <xliff:g id="percent_charging">%2$d</xliff:g> si está cargando.</string>
     <string name="dialog_scratch_mounted_message"><![CDATA[Ejecute los siguientes comandos y vuelva a intentar la actualización: \ n
         • ADB Root \ n
         • ADB Enable-Verity \ n
