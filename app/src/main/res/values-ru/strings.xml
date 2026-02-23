@@ -18,12 +18,12 @@
     <string name="app_name">Обновляющий</string>
     <string name="display_name">Обновляющий</string>
     <string name="system_updates">Обновления системы</string>
-    <string name="up_to_date">До настоящего времени</string>
+    <string name="up_to_date">Обновлений нет</string>
     <string name="update_available">Обновление доступно</string>
-    <string name="official_specifier">Official</string>
-    <string name="build_specifier">Официальное строительство</string>
+    <string name="official_specifier">Официально</string>
+    <string name="build_specifier">Сообщество</string>
     <string name="updates_title">Обновления</string>
-    <string name="changelog_guide">Проведите, чтобы увидеть, что новое</string>
+    <string name="changelog_guide">Проведите, чтобы увидеть, что нового</string>
     <string name="changelog_title">Что нового?</string>
     <string name="pref_save">Сохранять</string>
     <string name="pref_cancel">Отмена</string>
@@ -58,7 +58,7 @@
     <string name="preparing_ota_first_boot">Подготовка к первой загрузке</string>
     <string name="dialog_prepare_zip_message">Предварительная подготовка обновления</string>
     <string name="dialog_battery_low_title">Низкая батарея</string>
-    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
+    <string name="dialog_battery_low_message_pct">Уровень заряда батареи слишком низкий, для продолжения необходимо хотя бы <xliff:g id="percent_discharging">%1$d</xliff:g>%% заряда или <xliff:g id="percent_charging">%2$d</xliff:g>%% во время зарядки.</string>
     <string name="dialog_scratch_mounted_message"><![CDATA[Пожалуйста, запустите следующие команды и повторите обновление: \ n
         • adb root \ n
         • ADB Enable-Verity \ n
@@ -89,7 +89,7 @@
     <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки.</string>
     <string name="header_title_text">LineageOS\n%1$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="header_last_updates_check">Last checked: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <string name="header_last_updates_check">Последняя проверка: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
     <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
     <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
     <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
@@ -107,8 +107,8 @@
     <string name="confirm_delete_dialog_title">Удалить файл</string>
     <string name="confirm_delete_dialog_message">Удалить выбранный файл обновления?</string>
     <string name="apply_update_dialog_title">Применить обновление</string>
-    <string name="apply_update_dialog_message">You are about to install <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
-    <string name="apply_update_dialog_message_ab">You are about to install <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
+    <string name="apply_update_dialog_message">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> устройство будет перезапущено и переведено в режим восстановления для установки новой версии.\n\nПримечание: Для этой функции необходим совместимый Recovery. При возникновении ошибки потребуется установить обновление вручную.</string>
+    <string name="apply_update_dialog_message_ab">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> будет начата установка в фоновом режиме.\n\nПо завершении вам будет предложено перезагрузить устройство.</string>
     <string name="cancel_installation_dialog_message">Отменить установку?</string>
     <string name="label_download_url">Скачать URL</string>
     <string name="toast_download_url_copied">URL скопирован</string>
@@ -119,21 +119,21 @@
     <string name="toast_export_started">Экспорт начался</string>
     <plurals name="eta_seconds">
         <item quantity="one">1 second left</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> seconds left</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> seconds left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="few">Осталось: <xliff:g id="count">%d</xliff:g> сек.</item>
+        <item quantity="many">Осталась: <xliff:g id="count">%d</xliff:g> сек.</item>
+        <item quantity="other">Осталась: <xliff:g id="count">%d</xliff:g> сек.</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="one">1 minute left</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> minutes left</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> minutes left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="one">Осталось: 1 мин.</item>
+        <item quantity="few">Осталось: <xliff:g id="count">%d</xliff:g> мин.</item>
+        <item quantity="many">Осталось: <xliff:g id="count">%d</xliff:g> мин.</item>
+        <item quantity="other">Осталось: <xliff:g id="count">%d</xliff:g> мин.</item>
     </plurals>
     <plurals name="eta_hours">
         <item quantity="one">1 hour left</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> hours left</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> hours left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="few">Осталось: <xliff:g id="count">%d</xliff:g> ч.</item>
+        <item quantity="many">Осталось: <xliff:g id="count">%d</xliff:g> ч.</item>
+        <item quantity="other">Осталось: <xliff:g id="count">%d</xliff:g> ч.</item>
     </plurals>
     <string name="update_over_metered_network_title">Предупреждение</string>
     <string name="update_over_metered_network_message">Вы собираетесь загрузить пакет обновлений по измеренной сети, которая, вероятно, вызовет высокое использование данных. Вы хотите продолжить?</string>
