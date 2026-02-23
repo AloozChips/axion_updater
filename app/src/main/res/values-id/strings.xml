@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Updater</string>
-    <string name="display_name">Updater</string>
+    <string name="app_name">Pembaruan</string>
+    <string name="display_name">Pembaruan</string>
     <string name="system_updates">Pembaruan sistem</string>
     <string name="up_to_date">Terbaru</string>
     <string name="update_available">Pembaruan tersedia</string>
@@ -47,7 +47,7 @@
     <string name="update_failed_notification">Update gagal</string>
     <string name="installation_suspended_notification">Pemasangan tertunda</string>
     <string name="new_updates_found_title">Pembaruan terbaru</string>
-    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="text_download_speed">%1$s, %2$s/detik</string>
     <string name="pause_button">Jeda</string>
     <string name="resume_button">Melanjutkan</string>
     <string name="suspend_button">Tertunda</string>
@@ -58,13 +58,13 @@
     <string name="preparing_ota_first_boot">Persiapan untuk boot</string>
     <string name="dialog_prepare_zip_message">Persiapan pembaruan awal</string>
     <string name="dialog_battery_low_title">Baterai lemah</string>
-    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
-    <string name="dialog_scratch_mounted_message"><![CDATA[        Please run the following commands and retry the update:\n
+    <string name="dialog_battery_low_message_pct">Level baterai terlalu rendah, Anda membutuhkan setidaknya <xliff:g id="percent_discharging">%1$d</xliff:g>%% baterai untuk melanjutkan, <xliff:g id="percent_charging">%2$d</xliff:g>%% jika sedang mengisi daya.</string>
+    <string name="dialog_scratch_mounted_message"><![CDATA[        Silakan jalankan perintah berikut dan coba kembali pembaruan:\n
         • adb root\n
         • adb enable-verity\n
         • adb reboot
         ]]></string>
-    <string name="dialog_scratch_mounted_title">Cannot install update with OverlayFS mounted</string>
+    <string name="dialog_scratch_mounted_title">Tidak dapat memasang pembaruan saat OverlayFS terpasang</string>
     <string name="reboot">Mulai ulang</string>
     <string name="menu_refresh">Segarkan</string>
     <string name="menu_preferences">Preferensi</string>
@@ -79,25 +79,25 @@
     <string name="menu_export_update">Ekspor pembaruan</string>
     <string name="menu_show_changelog">Tampilkan changelog</string>
     <string name="menu_ab_perf_mode">Prioritaskan proses pembaruan</string>
-    <string name="menu_update_recovery">Update recovery</string>
-    <string name="toast_forced_update_recovery">It is impossible to disable Lineage Recovery updates on this device.</string>
-    <string name="snack_updates_found">New updates found</string>
-    <string name="snack_no_updates_found">No new updates found</string>
-    <string name="snack_updates_check_failed">The update check failed. Please check your internet connection and try again later.</string>
-    <string name="snack_download_failed">The download failed. Please check your internet connection and try again later.</string>
-    <string name="snack_download_verification_failed">The update verification failed.</string>
-    <string name="snack_download_verified">Download completed.</string>
-    <string name="snack_update_not_installable">This update can\'t be installed on top of the current build.</string>
+    <string name="menu_update_recovery">Pembaruan recovery</string>
+    <string name="toast_forced_update_recovery">Tidak dapat menonaktifkan pembaruan Lineage Recovery pada perangkat ini.</string>
+    <string name="snack_updates_found">Pembaruan baru ditemukan</string>
+    <string name="snack_no_updates_found">Tidak ditemukan pembaruan baru</string>
+    <string name="snack_updates_check_failed">Pemeriksaan pembaruan gagal. Silakan periksa koneksi internet Anda dan coba lagi nanti.</string>
+    <string name="snack_download_failed">Pengunduhan gagal. Silakan periksa koneksi internet Anda dan coba lagi nanti.</string>
+    <string name="snack_download_verification_failed">Verifikasi pembaruan gagal.</string>
+    <string name="snack_download_verified">Pengunduhan selesai.</string>
+    <string name="snack_update_not_installable">Pembaruan ini tidak dapat dipasang di atas versi yang sudah ada.</string>
     <string name="header_title_text">LineageOS\n%1$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="header_last_updates_check">Last checked: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <string name="header_last_updates_check">Terakhir diperiksa: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
     <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
     <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
-    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
-    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
+    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> dari <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
+    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> dari <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
     <string name="list_verifying_update">Mengverifikasi pembaruan</string>
-    <string name="list_no_updates">No new updates found. To manually check for new updates, use the Refresh button.</string>
-    <string name="action_download">Download</string>
+    <string name="list_no_updates">Tidak ditemukan pembaruan baru. Untuk memeriksa pembaruan secara manual, gunakan tombol segarkan.</string>
+    <string name="action_download">Unduh</string>
     <string name="action_pause">Jeda</string>
     <string name="action_resume">Melanjutkan</string>
     <string name="action_install">Pasang</string>
@@ -105,10 +105,10 @@
     <string name="action_delete">Hapus</string>
     <string name="action_cancel">Batal</string>
     <string name="action_na">N/A</string>
-    <string name="confirm_delete_dialog_title">Delete file</string>
-    <string name="confirm_delete_dialog_message">Delete the selected update file?</string>
-    <string name="apply_update_dialog_title">Apply update</string>
-    <string name="apply_update_dialog_message">You are about to install <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
+    <string name="confirm_delete_dialog_title">Hapus berkas</string>
+    <string name="confirm_delete_dialog_message">Hapus berkas pembaruan yang dipilih?</string>
+    <string name="apply_update_dialog_title">Terapkan pembaruan</string>
+    <string name="apply_update_dialog_message">Anda akan memasang <xliff:g id="update_name">%1$s</xliff:g>.\n\nJika Anda mengetuk <xliff:g id="ok">%2$s</xliff:g>, Perangkat akan memulai ulang sendiri ke dalam mode recovery untuk memasang pembaruan.\n\nCatatan: Fitur ini memerlukan Recovery yang kompatibel, atau pembaruan perlu dipasang secara manual.</string>
     <string name="apply_update_dialog_message_ab">You are about to install <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
     <string name="cancel_installation_dialog_message">Cancel the installation?</string>
     <string name="label_download_url">Download URL</string>
@@ -154,14 +154,14 @@
     <string name="welcome_message">Please note that when multiple updates are available, there is no need to go update-by-update, you can always install the latest one directly, and then safely delete old updates to free up storage space.</string>
     <!-- Axion UI -->
     <string name="screen_home">Layar utama</string>
-    <string name="screen_update">Update</string>
+    <string name="screen_update">Memperbarui</string>
     <string name="screen_import">Import</string>
     <string name="content_description_back">Back</string>
     <string name="content_description_menu">Menu</string>
     <string name="content_description_experimental_build">Experimental build</string>
     <string name="beta_label">Open BETA</string>
     <string name="rom_name">AxionOS</string>
-    <string name="default_maintainer">Unknown</string>
+    <string name="default_maintainer">Tidak dikenal</string>
     <string name="default_version">2.0</string>
     <string name="default_device">Unknown Device</string>
     <string name="local_update_label">Local update</string>
