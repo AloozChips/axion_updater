@@ -153,7 +153,7 @@
     <string name="welcome_title">Welcome</string>
     <string name="welcome_message">Please note that when multiple updates are available, there is no need to go update-by-update, you can always install the latest one directly, and then safely delete old updates to free up storage space.</string>
     <!-- Axion UI -->
-    <string name="screen_home">主屏幕</string>
+    <string name="screen_home">Home</string>
     <string name="screen_update">Update</string>
     <string name="screen_import">Import</string>
     <string name="content_description_back">Back</string>
