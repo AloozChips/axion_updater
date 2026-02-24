@@ -47,7 +47,7 @@
     <string name="update_failed_notification">更新に失敗しました</string>
     <string name="installation_suspended_notification">インストールが中断されました</string>
     <string name="new_updates_found_title">新しい更新</string>
-    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="text_download_speed">%1$s - %2$s/s</string>
     <string name="pause_button">一時停止</string>
     <string name="resume_button">再開する</string>
     <string name="suspend_button">つるす</string>
@@ -118,13 +118,13 @@
     <string name="toast_already_exporting">すでにアップデートをエクスポートしています</string>
     <string name="toast_export_started">エクスポートが開始されました</string>
     <plurals name="eta_seconds">
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="other">残り <xliff:g id="count">%d</xliff:g> 秒</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="other">残り <xliff:g id="count">%d</xliff:g> 分</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="other">残り <xliff:g id="count">%d</xliff:g> 時間</item>
     </plurals>
     <string name="update_over_metered_network_title">警告</string>
     <string name="update_over_metered_network_message">メーターネットワーク上に更新パッケージをダウンロードしようとしているため、高いデータ使用量を引き起こす可能性があります。先に進みたいですか？</string>
