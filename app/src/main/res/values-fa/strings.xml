@@ -164,7 +164,7 @@
     <string name="content_description_experimental_build">Experimental build</string>
     <string name="beta_label">Open BETA</string>
     <string name="rom_name">AxionOS</string>
-    <string name="default_maintainer">Unknown</string>
+    <string name="default_maintainer">ناشناس</string>
     <string name="default_version">2.0</string>
     <string name="default_device">Unknown Device</string>
     <string name="local_update_label">Local update</string>
