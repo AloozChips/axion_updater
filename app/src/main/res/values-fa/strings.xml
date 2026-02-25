@@ -80,11 +80,11 @@
     <string name="menu_show_changelog">نشان دادن گزارش دگرگونی</string>
     <string name="menu_ab_perf_mode">فرایند بروزرسانی برا بالا گذارید</string>
     <string name="menu_update_recovery">بروزرسانی recovery</string>
-    <string name="toast_forced_update_recovery">It is impossible to disable Lineage Recovery updates on this device.</string>
-    <string name="snack_updates_found">New updates found</string>
-    <string name="snack_no_updates_found">No new updates found</string>
-    <string name="snack_updates_check_failed">The update check failed. Please check your internet connection and try again later.</string>
-    <string name="snack_download_failed">The download failed. Please check your internet connection and try again later.</string>
+    <string name="toast_forced_update_recovery">نمیتوان بروزرسانی Lineage Recovery را روی این دستگاه خاموش کرد.</string>
+    <string name="snack_updates_found">بروزرسانی تازه پیدا شد</string>
+    <string name="snack_no_updates_found">هیچ بروزرسانی تازه‌ای پیدا نشد</string>
+    <string name="snack_updates_check_failed">برسی بروزرسانی شکست خورد پس از برسی اینترنت دوباره کوشش کنید.</string>
+    <string name="snack_download_failed">بارگیری شکست خورد. پس از برسی اینترنت دوباره کوشش کنید.</string>
     <string name="snack_download_verification_failed">The update verification failed.</string>
     <string name="snack_download_verified">Download completed.</string>
     <string name="snack_update_not_installable">This update can\'t be installed on top of the current build.</string>
