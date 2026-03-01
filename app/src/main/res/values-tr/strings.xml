@@ -174,7 +174,7 @@ Bu tür paketler yüklüyse, kurtarma modunda yan yükleme kullanmanız önerili
     <string name="label_status">Durum</string>
     <string name="label_eta">Kalan süre</string>
     <string name="label_speed">Hız</string>
-    <string name="unit_kilobytes_per_second">KB/s</string>
+    <string name="unit_kilobytes_per_second">KB/sn</string>
     <string name="unit_megabytes">MB</string>
     <string name="unit_kilobytes">KB</string>
     <string name="unit_percent">%</string>
