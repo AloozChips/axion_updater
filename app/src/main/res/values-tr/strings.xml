@@ -23,7 +23,7 @@
     <string name="official_specifier">Resmi</string>
     <string name="build_specifier">Topluluk</string>
     <string name="updates_title">Güncellemeler</string>
-    <string name="changelog_guide">Yenilikler için yukarı kaydırın</string>
+    <string name="changelog_guide">Yenilikleri öğrenmek için yukarı kaydırın</string>
     <string name="changelog_title">Neler Yeni?</string>
     <string name="pref_save">Kaydet</string>
     <string name="pref_cancel">Vazgeç</string>
